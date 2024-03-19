@@ -125,15 +125,15 @@
   }],
   "awards": [],
   "certificates": [{
-    "name": "Python and Django Certificate",
+    "name": "Python and Django",
     "date": "2019-03-01",
     "issuer": "O2W Leading Software",
     "url": "https://visamalog.com/documents/Python_Django_Certificate.pdf"
   }, {
-    "name": "React Native Course Certificate",
+    "name": "React Native Course",
     "date": "2019-06-24",
     "issuer": "Udemy",
-    "url": "ude.my/UC-VDZTYOAI"
+    "url": "https://ude.my/UC-VDZTYOAI"
   }],
   "publications": [],
   "skills": [{
@@ -247,7 +247,10 @@
     "startDate": "2024-01-10",
     "endDate": "2024-01-11",
     "description": "Personal portfolio, made with Astro.",
-    "highlights": [],
+    "highlights": [
+      "Responsive",
+      "Dark/Light Theme"
+    ],
     "url": "https://visamalog.com/"
   }, {
     "name": "Pokédex",
@@ -256,7 +259,8 @@
     "endDate": "2024-01-13",
     "description": "Pokédex using the help of PokeAPI.co and their repository for the sprites.",
     "highlights": [
-      "Use of external API"
+      "External API",
+      "Responsive Design"
     ],
     "url": "https://pokedex.visamalog.com/"
   }, {
@@ -265,7 +269,9 @@
     "startDate": "2024-01-13",
     "endDate": "2024-01-15",
     "description": "Web Application for listening to music.",
-    "highlights": [],
+    "highlights": [
+      "Zustand", "React", "Spotify Design"
+    ],
     "url": "https://viplay.visamalog.com/"
   }, {
     "name": "Wakpedia",
@@ -273,8 +279,24 @@
     "startDate": "2024-03-02",
     "endDate": "2024-03-19",
     "description": "Encyclopedia for Wakfu using the API given by Ankama",
-    "highlights": [],
+    "highlights": [
+      "External API",
+      "Colaborate"
+    ],
     "url": "https://wakpedia.visamalog.com"
+  }, {
+    "name": "VisamaNote",
+    "isActive": false,
+    "startDate": "2019-02-04",
+    "endDate": "2019-02-04",
+    "description": "Desktop application for saving notes.",
+    "highlights": [
+      "Electron",
+      "React",
+      "Tailwind CSS",
+      "Typescript"
+    ],
+    "url": "https://github.com/Visama396/VisamaNote"
   }, {
     "name": "Idionative",
     "isActive": false,
