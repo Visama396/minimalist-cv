@@ -1,0 +1,287 @@
+{
+  "basics": {
+    "name": "Víctor Sánchez Martínez",
+    "label": "Full Stack Developer & Games Programmer",
+    "image": "https://avatars.githubusercontent.com/u/35543599?v=4",
+    "email": "visamalog@gmail.com",
+    "phone": "+34 678052268",
+    "url": "https://visamalog.com",
+    "summary": "3 years of experience as Web Developer. I have worked with different teams and environments in Spain, the Netherlands and Germany. I have a good sense of teamwork and can adjust easily to new workflows.",
+    "location": {
+      "address": "",
+      "postalCode": "32005",
+      "city": "Ourense",
+      "countryCode": "ES",
+      "region": "España"
+    },
+    "profiles": [{
+      "network": "GitHub",
+      "username": "visama396",
+      "url": "https://github.com/visama396"
+    }, {
+      "network": "LinkedIn",
+      "username": "visamalog",
+      "url": "https://linkedin.com/in/visamalog"
+    }, {
+      "network": "X",
+      "username": "visama396",
+      "url": "https://x.com/visama396"
+    }]
+  },
+  "work": [{
+      "name": "Imaginanet",
+      "position": "Web Developer",
+      "url": "https://www.imaginanet.com/",
+      "startDate": "2019-10-01",
+      "endDate": "2021-02-01",
+      "summary": "Developing new projects in a small team. Communicating the client of the development status of the product and its updates. Use of version control to ensure a safe backup of the project with Git and Jira and Trello for communication with the testing team.",
+      "highlights": [
+        "Agile development",
+        "Angular",
+        "Playcanvas",
+        "Git"
+      ]
+    }, {
+      "name": "Stampwallet",
+      "position": "Web Developer",
+      "url": "https://www.puntje.nl/",
+      "startDate": "2019-04-01",
+      "endDate": "2019-06-06",
+      "summary": "Creating the landing page of new products. Maintaining old code of other projects. Learning new technologies.",
+      "highlights": [
+        "Wordpress",
+        "Apps Script with Google Sheets"
+      ]
+    }, {
+      "name": "Biyectiva",
+      "position": "Web Developer",
+      "url": "https://www.puntje.nl/",
+      "startDate": "2018-10-01",
+      "endDate": "2019-03-30",
+      "summary": "Helping build the website for the ",
+      "highlights": [
+        "Laravel",
+        "Angular"
+      ]
+  }],
+  "volunteer": [],
+  "education": [{
+    "institution": "The Core School",
+    "url": "https://www.thecoreschool.com/",
+    "area": "Software Development",
+    "studyType": "Diploma",
+    "startDate": "2021-09-01",
+    "endDate": "2022-06-01",
+    "score": "8.1",
+    "courses": [
+      "Games Programming Fundamentals",
+      "Introduction to Unity",
+      "Prototyping and Development in Unity",
+      "Introduction to Unreal Engine",
+      "C++ Programming",
+      "Implementing of Animations",
+      "Artificial Intelligence in Unreal Engine",
+      "Multiplayer Structure Fundamentals",
+      "Unreal Engine Multiplayer Synchronization",
+      "Unreal Engine Rendering and Physics"
+    ]
+  },{
+    "institution": "CIFP Carlos III",
+    "url": "https://cifpcarlos3.es/es",
+    "area": "Software Development",
+    "studyType": "Diploma",
+    "startDate": "2017-09-01",
+    "endDate": "2019-06-01",
+    "score": "8.2",
+    "courses": [
+      "Computer Systems",
+      "Databases",
+      "Programming",
+      "Development Environments",
+      "English",
+      "HTMl5, CSS3 and JavaScript",
+      "Client Side Web Development",
+      "Server Side Web Development",
+      "Web Applications deployment",
+      "Web Interfaces Design"
+    ]
+  }, {
+    "institution": "CIFP Hespérides",
+    "url": "https://cifphesperides.es/2020/",
+    "area": "Computers and Networks",
+    "studyType": "Diploma",
+    "startDate": "2015-09-01",
+    "endDate": "2017-06-01",
+    "score": "7.8",
+    "courses": [
+      "Maintenance and Install of Systems",
+      "Operative Systems",
+      "Local Networks",
+      "Office Suite Applications",
+      "IT Security",
+      "Network Services",
+      "Web Applications"
+    ]
+  }],
+  "awards": [],
+  "certificates": [{
+    "name": "Python and Django Certificate",
+    "date": "2019-03-01",
+    "issuer": "O2W Leading Software",
+    "url": "https://visamalog.com/documents/Python_Django_Certificate.pdf"
+  }, {
+    "name": "React Native Course Certificate",
+    "date": "2019-06-24",
+    "issuer": "Udemy",
+    "url": "ude.my/UC-VDZTYOAI"
+  }],
+  "publications": [],
+  "skills": [{
+    "name": "HTML",
+    "level": "Advanced",
+    "keywords": [
+      "Web Development", "Frontend"
+    ]
+  }, {
+    "name": "CSS",
+    "level": "Intermediate",
+    "keywords": [
+      "Web Development", "Frontend", "Responsive"
+    ]
+  }, {
+    "name": "Javascript",
+    "level": "Intermediate",
+    "keywords": [
+      "Web Development", "Frontend", "Backend", "Full Stack"
+    ]
+  }, {
+    "name": "Tailwind",
+    "level": "Intermediate",
+    "keywords": [
+      "Web Development", "Frontend", "CSS Framework", "Responsive"
+    ]
+  }, {
+    "name": "Typescript",
+    "level": "Intermediate",
+    "keywords": [
+      "Web Development", "Frontend", "Backend", "Javascript Superset"
+    ]
+  }, {
+    "name": "Node",
+    "level": "Intermediate",
+    "keywords": [
+      "Web Development", "Backend", "Javascript", "Server"
+    ]
+  }, {
+    "name": "MySQL",
+    "level": "Intermediate",
+    "keywords": [
+      "Databases", "SQL", "Data Storing", "Backend"
+    ]
+  }, {
+    "name": "Git",
+    "level": "Advanced",
+    "keywords": [
+      "Version Control", "Colaboration", "Source Code"
+    ]
+  }, {
+    "name": "Next.js",
+    "level": "Beginner",
+    "keywords": [
+      "Web Development", "Frontend", "React Framework", "SSR", "Static Generation"
+    ]
+  }, {
+    "name": "React",
+    "level": "Beginner",
+    "keywords": [
+      "Web Development", "Frontend", "Javascript Library", "UI"
+    ]
+  }, {
+    "name": "Astro",
+    "level": "Intermediate",
+    "keywords": [
+      "Web Development", "Frontend", "SSR", "Static Generation"
+    ]
+  }, {
+    "name": "Laravel",
+    "level": "Intermediate",
+    "keywords": [
+      "Web Development", "Backend", "CRUD", "PHP Framework"
+    ]
+  }, {
+    "name": "Django",
+    "level": "Intermediate",
+    "keywords": [
+      "Web Development", "Backend", "CRUD", "Python Framework"
+    ]
+  }],
+  "languages": [{
+    "language": "English",
+    "fluency": "Advanced"
+  }, {
+    "language": "German",
+    "fluency": "Intermediate"
+  }, {
+    "language": "Spanish",
+    "fluency": "Native"
+  }],
+  "interests": [{
+    "name": "Travel",
+    "keywords": [
+      "Countryside",
+      "Sightseeing",
+      "Culture"
+    ]
+  }, {
+    "name": "Reading",
+    "keywords": [
+      "The Lord of the Rings",
+      "Harry Potter",
+      "Heroes of Olympus"
+    ]
+  }],
+  "references": [],
+  "projects": [{
+    "name": "Portfolio",
+    "isActive": true,
+    "startDate": "2024-01-10",
+    "endDate": "2024-01-11",
+    "description": "Personal portfolio, made with Astro.",
+    "highlights": [],
+    "url": "https://visamalog.com/"
+  }, {
+    "name": "Pokédex",
+    "isActive": true,
+    "startDate": "2024-01-11",
+    "endDate": "2024-01-13",
+    "description": "Pokédex using the help of PokeAPI.co and their repository for the sprites.",
+    "highlights": [
+      "Use of external API"
+    ],
+    "url": "https://pokedex.visamalog.com/"
+  }, {
+    "name": "Viplay",
+    "isActive": true,
+    "startDate": "2024-01-13",
+    "endDate": "2024-01-15",
+    "description": "Web Application for listening to music.",
+    "highlights": [],
+    "url": "https://viplay.visamalog.com/"
+  }, {
+    "name": "Wakpedia",
+    "isActive": true,
+    "startDate": "2024-03-02",
+    "endDate": "2024-03-19",
+    "description": "Encyclopedia for Wakfu using the API given by Ankama",
+    "highlights": [],
+    "url": "https://wakpedia.visamalog.com"
+  }, {
+    "name": "Idionative",
+    "isActive": false,
+    "startDate": "2019-05-01",
+    "endDate": "2019-06-01",
+    "description": "Website to help people learn languages.",
+    "highlights": [],
+    "url": null
+  }]
+}
