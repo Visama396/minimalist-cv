@@ -1,12 +1,12 @@
 {
-  "basics": {
+  "basics_es": {
     "name": "Víctor Sánchez Martínez",
-    "label": "Full Stack Developer & Games Programmer",
+    "label": "Desarrollador Full Stack & Programador de Videojuegos",
     "image": "https://avatars.githubusercontent.com/u/35543599?v=4",
     "email": "visamalog@gmail.com",
     "phone": "+34 678052268",
     "url": "https://visamalog.com",
-    "summary": "3 years of experience as Web Developer. I have worked with different teams and environments in Spain, the Netherlands and Germany. I have a good sense of teamwork and can adjust easily to new workflows.",
+    "summary": "3 años de experiencia como Desarrollador Web. He trabajado en diferentes equipos y distintos entornos tanto en España, como Países Bajos y Alemania. Tengo un buen sentido del trabajo en equipo y me adapto con facilidad a cualquier flujo de trabajo.",
     "location": {
       "address": "",
       "postalCode": "32005",
@@ -34,9 +34,9 @@
       "url": "https://www.imaginanet.com/",
       "startDate": "2019-10-01",
       "endDate": "2021-02-01",
-      "summary": "Developing new projects in a small team. Communicating the client of the development status of the product and its updates. Use of version control to ensure a safe backup of the project with Git and Jira and Trello for communication with the testing team.",
+      "summary": "Desarrollo de proyectos nuevos en un equipo pequeño. Comunicación con el cliente sobre el progreso del desarrollo y sus mejoras. Uso de control de versiones para asegurarse backups del proyecto con Git, y uso de Jira y Trello para comunicarse con el equipo de testeo.",
       "highlights": [
-        "Agile development",
+        "Desarrollo Ágil",
         "Angular",
         "Playcanvas",
         "Git"
@@ -47,10 +47,10 @@
       "url": "https://www.puntje.nl/",
       "startDate": "2019-04-01",
       "endDate": "2019-06-06",
-      "summary": "Creating the landing page of new products. Maintaining old code of other projects. Learning new technologies.",
+      "summary": "Crear la página del nuevo producto Puntje. Mantenimiento de código y servicios de proyectos anteriores. Aprender React Native, Django, Wordpress.",
       "highlights": [
         "Wordpress",
-        "Apps Script with Google Sheets"
+        "Apps Script con Google Sheets"
       ]
     }, {
       "name": "Biyectiva",
@@ -58,7 +58,7 @@
       "url": "https://www.puntje.nl/",
       "startDate": "2018-10-01",
       "endDate": "2019-03-30",
-      "summary": "Create the website of ConnectTvTy",
+      "summary": "Crear la página de ConnecTvTy.",
       "highlights": [
         "Laravel",
         "Angular"
@@ -74,16 +74,16 @@
     "endDate": "2022-06-01",
     "score": "8.1",
     "courses": [
-      "Games Programming Fundamentals",
-      "Introduction to Unity",
-      "Prototyping and Development in Unity",
-      "Introduction to Unreal Engine",
-      "C++ Programming",
-      "Implementing of Animations",
-      "Artificial Intelligence in Unreal Engine",
-      "Multiplayer Structure Fundamentals",
-      "Unreal Engine Multiplayer Synchronization",
-      "Unreal Engine Rendering and Physics"
+      "Fundamentos de la Programación de Videojuegos",
+      "Introducción a Unity",
+      "Prototipado y desarrollo en Unity",
+      "Introducción a Unreal Engine",
+      "Programación en C++",
+      "Implementación de Animations",
+      "Inteligencia Artificial de Unreal Engine",
+      "Fundamentos de Estructura Multijugador",
+      "Sincronización Multijugador de Unreal Engine",
+      "Físicas y Renderizado de Unreal Engine"
     ]
   },{
     "institution": "CIFP Carlos III",
@@ -94,16 +94,15 @@
     "endDate": "2019-06-01",
     "score": "8.2",
     "courses": [
-      "Computer Systems",
-      "Databases",
-      "Programming",
-      "Development Environments",
-      "English",
-      "HTMl5, CSS3 and JavaScript",
-      "Client Side Web Development",
-      "Server Side Web Development",
-      "Web Applications deployment",
-      "Web Interfaces Design"
+      "Sistemas informáticos",
+      "Bases de datos",
+      "Programación",
+      "Entornos de desarrollo",
+      "HTMl5, CSS3 y JavaScript",
+      "Desarrollo web del lado cliente",
+      "Desarrollo web del lado servidor",
+      "Despliegue de aplicaciones web",
+      "Diseño de interfaces web"
     ]
   }, {
     "institution": "CIFP Hespérides",
@@ -114,23 +113,23 @@
     "endDate": "2017-06-01",
     "score": "7.8",
     "courses": [
-      "Maintenance and Install of Systems",
-      "Operative Systems",
-      "Local Networks",
-      "Office Suite Applications",
-      "IT Security",
-      "Network Services",
-      "Web Applications"
+      "Mantenimiento e instalación de equipos",
+      "Sistemas operativos",
+      "Redes locales",
+      "Aplicaciones ofimáticas",
+      "Seguridad informática",
+      "Servicios en red",
+      "Aplicaciones web"
     ]
   }],
   "awards": [],
   "certificates": [{
-    "name": "Python and Django",
+    "name": "Python y Django",
     "date": "2019-03-01",
     "issuer": "O2W Leading Software",
     "url": "https://visamalog.com/documents/Python_Django_Certificate.pdf"
   }, {
-    "name": "React Native Course",
+    "name": "Curso de React Native",
     "date": "2019-06-24",
     "issuer": "Udemy",
     "url": "https://ude.my/UC-VDZTYOAI"
@@ -242,26 +241,14 @@
   }],
   "references": [],
   "projects": [{
-    "name": "Aora",
-    "isActive": true,
-    "startDate": "2024-04-17",
-    "endDate": "2024-04-18",
-    "description": "Social network application for Android and IOS",
-    "highlights": [
-      "Full-Stack",
-      "Responsive",
-      "React Native"
-    ],
-    "url": "https://visamalog.com/"
-  },{
     "name": "Portfolio",
     "isActive": true,
     "startDate": "2024-01-10",
     "endDate": "2024-01-11",
-    "description": "Personal portfolio, made with Astro.",
+    "description": "Portafolio personal, hecho con Astro.",
     "highlights": [
       "Responsive",
-      "Dark/Light Theme"
+      "Tema Oscuro/Luz"
     ],
     "url": "https://visamalog.com/"
   }, {
@@ -269,9 +256,9 @@
     "isActive": true,
     "startDate": "2024-01-11",
     "endDate": "2024-01-13",
-    "description": "Pokédex using the help of PokeAPI.co and their repository for the sprites.",
+    "description": "Pokédex hecha con la PokeAPI.co y su repositorio para las sprites.",
     "highlights": [
-      "External API",
+      "API externa",
       "Responsive Design"
     ],
     "url": "https://pokedex.visamalog.com/"
@@ -280,7 +267,7 @@
     "isActive": true,
     "startDate": "2024-01-13",
     "endDate": "2024-01-15",
-    "description": "Web Application for listening to music.",
+    "description": "Aplicación web para escuchar mi música favorita. Hecha con React y Zustand.",
     "highlights": [
       "Zustand", "React", "Spotify Design"
     ],
@@ -290,10 +277,10 @@
     "isActive": true,
     "startDate": "2024-03-02",
     "endDate": "2024-04-03",
-    "description": "Encyclopedia for Wakfu using the API given by Ankama",
+    "description": "Enciclopedia de Wakfu con uso de la API de Ankama. Wakfu es un producto de Ankama.",
     "highlights": [
-      "External API",
-      "Colaborate"
+      "API externa",
+      "Colaboración"
     ],
     "url": "https://wakpedia.visamalog.com"
   }, {
@@ -301,7 +288,7 @@
     "isActive": false,
     "startDate": "2019-02-04",
     "endDate": "2019-02-04",
-    "description": "Desktop application for saving notes.",
+    "description": "Aplicación de escritorio para guardar apuntes. Hecha con Electron y React.",
     "highlights": [
       "Electron",
       "React",
@@ -314,7 +301,7 @@
     "isActive": false,
     "startDate": "2019-05-01",
     "endDate": "2019-06-01",
-    "description": "Website to help people learn languages.",
+    "description": "Página web para aprender otros idiomas.",
     "highlights": [],
     "url": null
   }]

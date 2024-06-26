@@ -8,9 +8,13 @@ import X from '@/icons/X.astro'
 import GitHub from '@/icons/GitHub.astro'
 import LinkedIn from '@/icons/LinkedIn.astro'
 
+const { language } = Astro.props
+
+import { basics_es } from '@escv'
 import { basics } from '@cv'
 
-const { name, label, image, location, profiles, phone, email } = basics
+let { name, label, image, location, profiles, phone, email } = basics
+
 const { city, region } = location
 
 const SOCIAL_ICONS: Record<string, any> = {
@@ -26,6 +30,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
 ---
 <Section>
   <div class="container">
+    
     <div class="info">
       <h1>{name}</h1>
       <h2>{label}</h2>

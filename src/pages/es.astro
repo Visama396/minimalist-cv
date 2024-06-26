@@ -1,0 +1,38 @@
+---
+import Layout from '@/layouts/Layout.astro'
+
+import About from '@/components/sections/About.astro'
+import Certificates from '@/components/sections/Certificates.astro'
+import Education from '@/components/sections/Education.astro'
+import Experience from '@/components/sections/Experience.astro'
+import Hero from '@/components/sections/Hero.astro'
+import Projects from '@/components/sections/Projects.astro'
+import Skills from '@/components/sections/Skills.astro'
+
+import KeyboardManager from '@/components/KeyboardManager.astro'
+
+import { basics_es } from '@escv'
+const { name, label } = basics_es
+---
+
+<Layout title={`Portfolio of ${name} - ${label}`}>
+	<main>
+		<Hero language="es" />
+		<About language="es" />
+		<Experience language="es" />
+		<Projects language="es" />
+		<Certificates language="es" />
+		<Education language="es" />
+		<Skills language="es" />
+	</main>
+
+	<KeyboardManager />
+</Layout>
+
+<style>
+	main {
+		padding: 4rem;
+		margin: auto;
+		width: 100%;
+	}
+</style>
