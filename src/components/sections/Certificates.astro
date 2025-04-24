@@ -2,12 +2,21 @@
 import Section from '@/components/Section.astro'
 
 import { certificates } from '@cv'
+import { certificates as certificados } from '@escv'
+
+const { language } = Astro.props
+
+let certis = certificates
+
+if (language == 'es') certis = certificados
+
+
 ---
 
-<Section title="Certificates">
+<Section title={`${(language == 'es')? 'Títulos' : 'Certificates'}`}>
   <ul>
     {
-      certificates.map(certificate => {
+      certis.map(certificate => {
         const issueYear = new Date(certificate.date).getFullYear()
         return (
           <li>

@@ -2,12 +2,18 @@
 import Section from '@/components/Section.astro'
 
 import { work } from '@cv'
----
+import { work as eswork } from '@escv'
 
-<Section title="Experience">
+const { language } = Astro.props
+
+let workexperience = work
+
+if (language == 'es') workexperience = eswork
+---
+<Section title={`${(language == 'es')? 'Experiencia' : 'Experience'}`}>
   <ul>
     {
-      work.map(({ name, startDate, endDate, position, summary, highlights }) => {
+      workexperience.map(({ name, startDate, endDate, position, summary, highlights }) => {
         const startYear = new Date(startDate).getFullYear()
         const endYear = endDate != null ? new Date(endDate).getFullYear() : "Current"
         const years = `${startYear} - ${endYear}`

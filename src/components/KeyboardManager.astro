@@ -1,6 +1,8 @@
 ---
 import { basics } from '@cv'
 
+const { language } = Astro.props
+
 const { profiles } = basics
 
 const SOCIAL_ICONS: Record<string, any> = {
@@ -22,10 +24,13 @@ const profilesInfo = profiles.map(({ network, url }) => {
     hotkey: `ctrl+${firstLetter}`
   }
 })
+
+let footerText = "Press <kbd>Cmd</kbd> + <kbd>K</kbd> to open the command line."
+
+if (language == 'es') footerText = "Presiona <kbd>Cmd</kbd> + <kbd>K</kbd> para abrir la terminal."
 ---
 
-<footer class="no-print">
-  Press <kbd>Cmd</kbd> + <kbd>K</kbd> to open the command line.
+<footer class="no-print" set:html={footerText}>  
 </footer>
 
 <ninja-keys data-info={JSON.stringify(profilesInfo)} placeholder="Search command" hideBreadcrumbs>
@@ -108,12 +113,5 @@ const profilesInfo = profiles.map(({ network, url }) => {
     animation: linear .3s fadeIn;
     animation-timeline: --revealing;
     animation-range: entry 100% cover 10%;
-  }
-
-  kbd {
-    background: #eee;
-    border-radius: 4px;
-    padding: 2px 4px;
-    font-size: 12px;
   }
 </style>

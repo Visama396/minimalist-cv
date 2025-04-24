@@ -2,10 +2,19 @@
 import Section from '@/components/Section.astro'
 
 import { basics } from '@cv'
-const { summary } = basics 
+import { basics_es } from '@escv'
+
+const { language } = Astro.props
+
+let { summary } = basics 
+
+if (language == 'es') {
+  summary = basics_es.summary
+}
+
 ---
 
-<Section title="About">
+<Section title={`${(language == 'es')? 'Resumen' : 'Resume'}`}>
   <p>
     {summary}
   </p>

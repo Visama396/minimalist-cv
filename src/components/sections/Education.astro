@@ -2,12 +2,19 @@
 import Section from '@/components/Section.astro'
 
 import { education } from '@cv'
+import { education as eseducation } from '@escv'
+
+const { language } = Astro.props
+
+let schools = education
+
+if (language == 'es') schools = eseducation
 ---
 
-<Section title="Education">
+<Section title={`${(language == 'es')? 'Estudios' : 'Education'}`}>
   <ul>
     {
-      education.map(({ institution, url, area, courses, startDate, endDate}) => {
+      schools.map(({ institution, url, area, courses, startDate, endDate}) => {
         const startYear = new Date(startDate).getFullYear()
         const endYear = endDate != null ? new Date(endDate).getFullYear() : "Current"
 

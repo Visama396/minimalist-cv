@@ -6,7 +6,7 @@
     "email": "visamalog@gmail.com",
     "phone": "+34 678052268",
     "url": "https://visamalog.com",
-    "summary": "2 años de experiencia como Desarrollador Web. He trabajado en diferentes equipos y distintos entornos tanto en España, como Países Bajos y Alemania. Tengo un buen sentido del trabajo en equipo y me adapto con facilidad a cualquier flujo de trabajo.",
+    "summary": "2 años de experiencia como Desarrollador Web. Tengo un buen sentido del trabajo en equipo y me adapto con facilidad a cualquier flujo de trabajo.",
     "location": {
       "address": "",
       "postalCode": "32005",
@@ -30,11 +30,11 @@
   },
   "work": [{
       "name": "Imaginanet",
-      "position": "Web Developer",
+      "position": "Desarrollador Web",
       "url": "https://www.imaginanet.com/",
       "startDate": "2019-10-01",
       "endDate": "2021-02-01",
-      "summary": "Desarrollo de proyectos nuevos en un equipo pequeño. Comunicación con el cliente sobre el progreso del desarrollo y sus mejoras. Uso de control de versiones para asegurarse backups del proyecto con Git, y uso de Jira y Trello para comunicarse con el equipo de testeo.",
+      "summary": "Recodificar proyecto que estaba en Flash a HTML5 y Javascript atendiendo a mejoras o actualizaciones que el cliente quisiera añadir, y desarrollar nuevos proyectos. Control de versiones para asegurar backups del proyecto con Git, y uso de Jira y Trello para comunicarse con el equipo de testing.",
       "highlights": [
         "Desarrollo Ágil",
         "Angular",
@@ -43,22 +43,24 @@
       ]
     }, {
       "name": "Stampwallet",
-      "position": "Web Developer",
+      "position": "Desarrollador Web",
       "url": "https://www.puntje.nl/",
       "startDate": "2019-04-01",
       "endDate": "2019-06-06",
-      "summary": "Crear la página del nuevo producto Puntje. Mantenimiento de código y servicios de proyectos anteriores. Aprender React Native, Django, Wordpress.",
+      "summary": "Crear la página del nuevo producto Puntje. Mantenimiento de código y desarrollo de servicios y proyectos de anteriores y nuevos clientes. Aprendiendo por el camino React Native, Django y Wordpress.",
       "highlights": [
         "Wordpress",
-        "Apps Script con Google Sheets"
+        "Apps Script con Google Sheets",
+        "PHP",
+        "React"
       ]
     }, {
       "name": "Biyectiva",
-      "position": "Web Developer",
-      "url": "https://www.puntje.nl/",
+      "position": "Desarrollador Web",
+      "url": "https://www.biyectiva.com/es/success-story/connectvty",
       "startDate": "2018-10-01",
       "endDate": "2019-03-30",
-      "summary": "Crear la página de ConnecTvTy.",
+      "summary": "Colaboración en la Startup de Biyectiva para crear la web de clientes de la aplicación ConnecTvTy.",
       "highlights": [
         "Laravel",
         "Angular"
@@ -68,7 +70,7 @@
   "education": [{
     "institution": "The Core School",
     "url": "https://www.thecoreschool.com/",
-    "area": "Software Development",
+    "area": "Desarrollo de Videojuegos",
     "studyType": "Diploma",
     "startDate": "2021-09-01",
     "endDate": "2022-06-01",
@@ -88,7 +90,7 @@
   },{
     "institution": "CIFP Carlos III",
     "url": "https://cifpcarlos3.es/es",
-    "area": "Software Development",
+    "area": "Desarrollo Web",
     "studyType": "Diploma",
     "startDate": "2017-09-01",
     "endDate": "2019-06-01",
@@ -107,7 +109,7 @@
   }, {
     "institution": "CIFP Hespérides",
     "url": "https://cifphesperides.es/2020/",
-    "area": "Computers and Networks",
+    "area": "Computadoras y Redes",
     "studyType": "Diploma",
     "startDate": "2015-09-01",
     "endDate": "2017-06-01",
@@ -213,26 +215,74 @@
     "keywords": [
       "Web Development", "Backend", "CRUD", "Python Framework"
     ]
+  }, {
+    "name": "Java",
+    "level": "Intermediate",
+    "keywords": [
+      "Backend"
+    ]
+  }, {
+    "name": "PHP",
+    "level": "Intermediate",
+    "keywords": [
+      "Backend", "CRUD"
+    ]
+  }, {
+    "name": "Python",
+    "level": "Intermediate",
+    "keywords": [
+      "Backend"
+    ]
+  }, {
+    "name": "C#",
+    "level": "Intermediate",
+    "keywords": [
+      "Backend"
+    ]
+  }, {
+    "name": "C++",
+    "level": "Intermediate",
+    "keywords": [
+      "Backend"
+    ]
+  }, {
+    "name": "Unity",
+    "level": "Intermediate",
+    "keywords": [
+      "Games"
+    ]
+  }, {
+    "name": "Unreal Engine",
+    "level": "Intermediate",
+    "keywords": [
+      "Games"
+    ]
+  }, {
+    "name": "Blender",
+    "level": "Basic",
+    "keywords": [
+      "3D Modeling"
+    ]
   }],
   "languages": [{
     "language": "English",
-    "fluency": "Advanced"
+    "fluency": "Avanzado"
   }, {
     "language": "German",
-    "fluency": "Intermediate"
+    "fluency": "Intermedio"
   }, {
     "language": "Spanish",
-    "fluency": "Native"
+    "fluency": "Nativo"
   }],
   "interests": [{
-    "name": "Travel",
+    "name": "Viajar",
     "keywords": [
-      "Countryside",
-      "Sightseeing",
-      "Culture"
+      "Ciudades y Pueblos",
+      "Explorar",
+      "Cultura"
     ]
   }, {
-    "name": "Reading",
+    "name": "Leer",
     "keywords": [
       "The Lord of the Rings",
       "Harry Potter",
@@ -241,7 +291,7 @@
   }],
   "references": [],
   "projects": [{
-    "name": "Portfolio",
+    "name": "Porfolio",
     "isActive": true,
     "startDate": "2024-01-10",
     "endDate": "2024-01-11",
@@ -301,8 +351,10 @@
     "isActive": false,
     "startDate": "2019-05-01",
     "endDate": "2019-06-01",
-    "description": "Página web para aprender otros idiomas.",
-    "highlights": [],
+    "description": "Página web para aprender idiomas extranjeros.",
+    "highlights": [
+      "Laravel"
+    ],
     "url": null
   }]
 }

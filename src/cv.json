@@ -12,7 +12,7 @@
       "postalCode": "32005",
       "city": "Ourense",
       "countryCode": "ES",
-      "region": "España"
+      "region": "Spain"
     },
     "profiles": [{
       "network": "GitHub",
@@ -55,7 +55,7 @@
     }, {
       "name": "Biyectiva",
       "position": "Web Developer",
-      "url": "https://www.puntje.nl/",
+      "url": "https://www.biyectiva.com/es/success-story/connectvty",
       "startDate": "2018-10-01",
       "endDate": "2019-03-30",
       "summary": "Create the website of ConnectTvTy",
@@ -214,6 +214,60 @@
     "keywords": [
       "Web Development", "Backend", "CRUD", "Python Framework"
     ]
+  }, {
+    "name": "Java",
+    "level": "Intermediate",
+    "keywords": [
+      "Backend"
+    ]
+  }, {
+    "name": "PHP",
+    "level": "Intermediate",
+    "keywords": [
+      "Backend", "CRUD"
+    ]
+  }, {
+    "name": "Python",
+    "level": "Intermediate",
+    "keywords": [
+      "Backend"
+    ]
+  }, {
+    "name": "C#",
+    "level": "Intermediate",
+    "keywords": [
+      "Backend"
+    ]
+  }, {
+    "name": "C++",
+    "level": "Intermediate",
+    "keywords": [
+      "Backend"
+    ]
+  }, {
+    "name": "Unity",
+    "level": "Intermediate",
+    "keywords": [
+      "Games"
+    ]
+  }, {
+    "name": "Unreal Engine",
+    "level": "Intermediate",
+    "keywords": [
+      "Games"
+    ]
+  }, {
+    "name": "Blender",
+    "level": "Basic",
+    "keywords": [
+      "3D Modeling"
+    ]
+  }, {
+    "name": "GitHub",
+    "level": "Basic",
+    "keywords": [
+      "3D Modeling"
+    ]
   }],
   "languages": [{
     "language": "English",
@@ -253,6 +307,25 @@
       "React Native"
     ],
     "url": "https://github.com/Visama396/video-app"
+  }, {
+    "name": "Wakpedia",
+    "isActive": true,
+    "startDate": "2024-03-02",
+    "endDate": "2024-04-03",
+    "description": "Encyclopedia for Wakfu using the API given by Ankama",
+    "highlights": [
+      "External API",
+      "Colaborate"
+    ],
+    "url": "https://wakpedia.visamalog.com"
+  }, {
+    "name": "Idionative",
+    "isActive": false,
+    "startDate": "2019-05-01",
+    "endDate": "2019-06-01",
+    "description": "Website to help people learn languages.",
+    "highlights": [],
+    "url": null
   },{
     "name": "Portfolio",
     "isActive": true,
@@ -286,17 +359,6 @@
     ],
     "url": "https://viplay.visamalog.com/"
   }, {
-    "name": "Wakpedia",
-    "isActive": true,
-    "startDate": "2024-03-02",
-    "endDate": "2024-04-03",
-    "description": "Encyclopedia for Wakfu using the API given by Ankama",
-    "highlights": [
-      "External API",
-      "Colaborate"
-    ],
-    "url": "https://wakpedia.visamalog.com"
-  }, {
     "name": "VisamaNote",
     "isActive": false,
     "startDate": "2019-02-04",
@@ -309,13 +371,5 @@
       "Typescript"
     ],
     "url": "https://github.com/Visama396/VisamaNote"
-  }, {
-    "name": "Idionative",
-    "isActive": false,
-    "startDate": "2019-05-01",
-    "endDate": "2019-06-01",
-    "description": "Website to help people learn languages.",
-    "highlights": [],
-    "url": null
   }]
 }

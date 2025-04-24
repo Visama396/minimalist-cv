@@ -15,6 +15,16 @@ import { basics } from '@cv'
 
 let { name, label, image, location, profiles, phone, email } = basics
 
+if (language == 'es') {
+  name = basics_es.name
+  label = basics_es.label
+  image = basics_es.image
+  location = basics_es.location
+  profiles = basics_es.profiles
+  phone = basics_es.phone
+  email = basics_es.email
+}
+
 const { city, region } = location
 
 const SOCIAL_ICONS: Record<string, any> = {
