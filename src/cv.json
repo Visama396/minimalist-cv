@@ -271,10 +271,13 @@
   }],
   "languages": [{
     "language": "English",
-    "fluency": "Advanced"
+    "fluency": "Advanced C1"
   }, {
     "language": "German",
-    "fluency": "Intermediate"
+    "fluency": "Intermediate B1"
+  }, {
+    "language": "Japanese",
+    "fluency": "Basic N5"
   }, {
     "language": "Spanish",
     "fluency": "Native"

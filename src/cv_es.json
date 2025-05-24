@@ -265,13 +265,16 @@
     ]
   }],
   "languages": [{
-    "language": "English",
-    "fluency": "Avanzado"
+    "language": "Inglés",
+    "fluency": "Avanzado C1"
   }, {
-    "language": "German",
-    "fluency": "Intermedio"
+    "language": "Alemán",
+    "fluency": "Intermedio B1"
+  },{
+    "language": "Japonés",
+    "fluency": "Básico N5"
   }, {
-    "language": "Spanish",
+    "language": "Español",
     "fluency": "Nativo"
   }],
   "interests": [{
