@@ -4,7 +4,7 @@
     "label": "Desarrollador Full Stack & Programador de Videojuegos",
     "image": "https://avatars.githubusercontent.com/u/35543599?v=4",
     "email": "visamalog@gmail.com",
-    "phone": "+34 678052268",
+    "phone": "+34 664 29 30 33",
     "url": "https://visamalog.com",
     "summary": "2 años de experiencia como Desarrollador Web. Tengo un buen sentido del trabajo en equipo y me adapto con facilidad a cualquier flujo de trabajo.",
     "location": {
@@ -68,6 +68,22 @@
   }],
   "volunteer": [],
   "education": [{
+    "institution": "ESEI Ourense",
+    "url": "https://esei.uvigo.es/",
+    "area": "Desarrollo de Software",
+    "studyType": "Carrera",
+    "startDate": "2022-09-01",
+    "endDate": "",
+    "score": "",
+    "courses": [
+      "Programación",
+      "Matemáticas",
+      "Algoritmos",
+      "Arquitecturas de Software",
+      "C++",
+      "Ingeniería del Software"
+    ]
+  },{
     "institution": "The Core School",
     "url": "https://www.thecoreschool.com/",
     "area": "Desarrollo de Videojuegos",

@@ -66,6 +66,22 @@
   }],
   "volunteer": [],
   "education": [{
+    "institution": "ESEI Ourense",
+    "url": "https://esei.uvigo.es/",
+    "area": "Software Development",
+    "studyType": "Degree",
+    "startDate": "2022-09-01",
+    "endDate": "",
+    "score": "",
+    "courses": [
+      "Programming Fundamentals",
+      "Mathematics",
+      "Algorithms",
+      "Arquitectures",
+      "C++ Programming",
+      "Software Engineering"
+    ]
+  },{
     "institution": "The Core School",
     "url": "https://www.thecoreschool.com/",
     "area": "Software Development",
