@@ -16,7 +16,7 @@ if (language == 'es') schools = eseducation
     {
       schools.map(({ institution, url, area, courses, startDate, endDate}) => {
         const startYear = new Date(startDate).getFullYear()
-        const endYear = endDate != null ? new Date(endDate).getFullYear() : "Current"
+        const endYear = endDate != null ? new Date(endDate).getFullYear() : (language == 'es')? 'Actualmente' : 'Currently'
 
         const years = `${startYear} - ${endYear}`
 
