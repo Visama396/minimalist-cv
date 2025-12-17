@@ -105,8 +105,8 @@
   },{
     "institution": "CIFP Carlos III",
     "url": "https://cifpcarlos3.es/es",
-    "area": "Desarrollo Web",
-    "studyType": "Diploma",
+    "area": "Desarrollo de Aplicaciones Web - DAW",
+    "studyType": "Grado Superior",
     "startDate": "2017-09-01",
     "endDate": "2019-06-01",
     "score": "8.2",
@@ -124,8 +124,8 @@
   }, {
     "institution": "CIFP Hespérides",
     "url": "https://cifphesperides.es/2020/",
-    "area": "Computadoras y Redes",
-    "studyType": "Diploma",
+    "area": "Sistemas Microinformáticos y Redes - SMR",
+    "studyType": "Gradio Medio",
     "startDate": "2015-09-01",
     "endDate": "2017-06-01",
     "score": "7.8",
