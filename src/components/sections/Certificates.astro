@@ -3,17 +3,44 @@ import Section from '@/components/Section.astro'
 
 import { certificates } from '@cv'
 import { certificates as certificados } from '@escv'
+import { certificates as decertificates } from '@decv'
+import { certificates as jacertificates } from '@jacv'
+import { certificates as gacertificates } from '@gacv'
 
 const { language } = Astro.props
 
-let certis = certificates
+const titles: Record<string, string> = {
+  en: 'Certificates',
+  es: 'Certificados',
+  de: 'Zertifikate',
+  ja: '資格',
+  ga: 'Certificados',
+}
 
-if (language == 'es') certis = certificados
+const issuedText: Record<string, string> = {
+  en: 'Issued on',
+  es: 'Expedido en',
+  de: 'Ausgestellt',
+  ja: '取得',
+  ga: 'Expedido en',
+}
+
+const allCerts: Record<string, typeof certificates> = {
+  en: certificates,
+  es: certificados,
+  de: decertificates,
+  ja: jacertificates,
+  ga: gacertificates,
+}
+
+const certis = allCerts[language ?? 'en'] ?? certificates
+const title = titles[language ?? 'en'] ?? titles.en
+const issued = issuedText[language ?? 'en'] ?? issuedText.en
 
 
 ---
 
-<Section title={`${(language == 'es')? 'Títulos' : 'Certificates'}`}>
+<Section title={title}>
   <ul>
     {
       certis.map(certificate => {
@@ -30,7 +57,7 @@ if (language == 'es') certis = certificados
                 <h4>{certificate.issuer}</h4>
               </header>
               <footer>
-                <time>Issued on {issueYear}</time>
+                <time>{issued} {issueYear}</time>
               </footer>
             </article>
           </li>

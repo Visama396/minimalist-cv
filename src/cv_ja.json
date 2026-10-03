@@ -1,18 +1,18 @@
 {
-  "basics": {
+  "basics_ja": {
     "name": "Víctor Sánchez Martínez",
-    "label": "Software Engineer and Games Developer",
+    "label": "ソフトウェアエンジニア・ゲーム開発者",
     "image": "https://avatars.githubusercontent.com/u/35543599?v=4",
     "email": "visamalog@gmail.com",
     "phone": "+34 678052268",
     "url": "https://visamalog.com",
-    "summary": "I am committed to continuous learning and possess excellent communication and teamwork skills, along with a strong ability to learn quickly. I also stand out for my adaptability and problem-solving skills, which enable me to work effectively in a variety of environments and situations.",
+    "summary": "継続的な学習に意欲的に取り組み、優れたコミュニケーション能力とチームワーク、そして高い学習能力を備えています。また、適応力と問題解決能力にも優れており、さまざまな環境や状況に柔軟かつ効果的に対応できます。",
     "location": {
       "address": "",
       "postalCode": "32005",
       "city": "Ourense",
       "countryCode": "ES",
-      "region": "Spain"
+      "region": "スペイン"
     },
     "profiles": [
       {
@@ -30,13 +30,13 @@
   "work": [
     {
       "name": "Imaginanet",
-      "position": "Web Developer",
+      "position": "ウェブ開発者",
       "url": "https://www.imaginanet.com/",
       "startDate": "2019-10-01",
       "endDate": "2021-02-01",
-      "summary": "Developed new web and interactive projects in a small team, including migrating legacy Flash content to HTML5 and JavaScript and adding client-requested improvements. Communicated progress directly with clients and coordinated with the testing team using Git for version control alongside Jira and Trello, which helped me grow considerably as a developer.",
+      "summary": "小規模チームで新規ウェブ・インタラクティブプロジェクトを開発し、FlashコンテンツのHTML5・JavaScriptへの移行や改善に対応しました。進捗をクライアントと直接共有し、GitとJira・Trelloでテストチームと連携したことで、開発者として大きく成長できました。",
       "highlights": [
-        "Agile development",
+        "アジャイル開発",
         "Angular",
         "Playcanvas",
         "Git"
@@ -44,23 +44,25 @@
     },
     {
       "name": "Stampwallet",
-      "position": "Web Developer",
+      "position": "ウェブ開発者",
       "url": "https://www.puntje.nl/",
       "startDate": "2019-04-01",
       "endDate": "2019-06-06",
-      "summary": "Built the landing page for the new Puntje product and maintained code and services for previous and new clients. Refactored existing codebases, supported product delivery, and kept learning new technologies along the way, including React, Django and WordPress.",
+      "summary": "新製品Puntjeのランディングページを作成し、既存・新規クライアントのコードやサービスを保守しました。コードのリファクタリングや製品提供を支援しながら、ReactやDjango、WordPressを学び続けました。",
       "highlights": [
         "Wordpress",
-        "Apps Script with Google Sheets"
+        "Apps Script",
+        "PHP",
+        "React"
       ]
     },
     {
       "name": "Biyectiva",
-      "position": "Web Developer",
+      "position": "ウェブ開発者",
       "url": "https://www.biyectiva.com/es/success-story/connectvty",
       "startDate": "2018-10-01",
       "endDate": "2019-03-30",
-      "summary": "Collaborated with the Biyectiva startup to build the client-facing website for their ConnecTVty application. Worked across frontend and backend with Laravel and Angular to deliver a stable, usable product for real customers.",
+      "summary": "BiyectivaでConnecTVtyアプリのクライアント向けサイト構築に貢献しました。LaravelとAngularでフロントエンドからバックエンドまで担当し、安定した製品を提供しました。",
       "highlights": [
         "Laravel",
         "Angular"
@@ -72,90 +74,89 @@
     {
       "institution": "ESEI Ourense",
       "url": "https://esei.uvigo.es/",
-      "area": "Computer Engineering",
-      "studyType": "Degree",
+      "area": "コンピュータ工学",
+      "studyType": "学位",
       "startDate": "2022-09-01",
       "score": "",
       "courses": [
-        "Programming Fundamentals",
-        "Mathematics",
-        "Algorithms",
-        "Architectures",
-        "C++ Programming",
-        "Software Engineering"
+        "プログラミング基礎",
+        "数学",
+        "アルゴリズム",
+        "アーキテクチャ",
+        "C++",
+        "ソフトウェア工学"
       ]
     },
     {
       "institution": "The Core School",
       "url": "https://www.thecoreschool.com/",
-      "area": "Software Development",
-      "studyType": "Diploma",
+      "area": "ゲーム開発",
+      "studyType": "ディプロマ",
       "startDate": "2021-09-01",
       "endDate": "2022-06-01",
       "score": "8.1",
       "courses": [
-        "Game Programming Fundamentals",
-        "Introduction to Unity",
-        "Prototyping and Development in Unity",
-        "Introduction to Unreal Engine",
-        "C++ Programming",
-        "Animation Implementation",
-        "Artificial Intelligence in Unreal Engine",
-        "Multiplayer Structure Fundamentals",
-        "Multiplayer Synchronization in Unreal Engine",
-        "Rendering and Physics in Unreal Engine"
+        "ゲームプログラミング基礎",
+        "Unity入門",
+        "Unity開発",
+        "Unreal Engine入門",
+        "C++",
+        "アニメーション",
+        "Unreal AI",
+        "マルチプレイヤー基礎",
+        "マルチプレイヤー同期",
+        "レンダリングと物理"
       ]
     },
     {
       "institution": "CIFP Carlos III",
       "url": "https://cifpcarlos3.es/es",
-      "area": "Software Development",
-      "studyType": "Diploma",
+      "area": "ソフトウェア開発",
+      "studyType": "ディプロマ",
       "startDate": "2017-09-01",
       "endDate": "2019-06-01",
       "score": "8.2",
       "courses": [
-        "Computer Systems",
-        "Databases",
-        "Programming",
-        "Development Environments",
-        "English",
-        "HTML5, CSS3 and JavaScript",
-        "Client Side Web Development",
-        "Server Side Web Development",
-        "Web Applications deployment",
-        "Web Interfaces Design"
+        "システム",
+        "データベース",
+        "プログラミング",
+        "開発環境",
+        "HTML5, CSS3, JavaScript",
+        "クライアント開発",
+        "サーバー開発",
+        "デプロイ",
+        "UIデザイン"
       ]
     },
     {
-      "institution": "CIFP Hespérides",
+      "institution": "CIFP Hesperides",
       "url": "https://cifphesperides.es/2020/",
-      "area": "Computers and Networks",
-      "studyType": "Diploma",
+      "area": "コンピュータとネットワーク",
+      "studyType": "ディプロマ",
       "startDate": "2015-09-01",
       "endDate": "2017-06-01",
       "score": "7.8",
       "courses": [
-        "Systems Maintenance and Installation",
-        "Operating Systems",
-        "Local Networks",
-        "Office Suite Applications",
-        "IT Security",
-        "Network Services",
-        "Web Applications"
+        "保守・設置",
+        "OS",
+        "ネットワーク",
+        "オフィス",
+        "セキュリティ",
+        "サービス",
+        "Webアプリ"
       ]
     }
   ],
   "awards": [],
   "certificates": [
     {
-      "name": "Python and Django",
+      "name": "PythonとDjango",
       "date": "2019-03-01",
       "issuer": "O2W Leading Software",
       "url": "https://visamalog.com/documents/Python_Django_Certificate.pdf"
     },
     {
-      "name": "React Native Course",
+      "name": "React Nativeコース",
       "date": "2019-06-24",
       "issuer": "Udemy",
       "url": "https://ude.my/UC-VDZTYOAI"
@@ -358,97 +359,46 @@
   ],
   "languages": [
     {
-      "language": "English",
-      "fluency": "Advanced C1"
+      "language": "英語",
+      "fluency": "上級 C1"
     },
     {
-      "language": "German",
-      "fluency": "Intermediate B1"
+      "language": "ドイツ語",
+      "fluency": "中級 B1"
     },
     {
-      "language": "Japanese",
-      "fluency": "Basic N5"
+      "language": "日本語",
+      "fluency": "初級 N5"
     },
     {
-      "language": "Spanish",
-      "fluency": "Native"
+      "language": "スペイン語",
+      "fluency": "ネイティブ"
     }
   ],
-  "interests": [
-    {
-      "name": "Travel",
-      "keywords": [
-        "Countryside",
-        "Sightseeing",
-        "Culture"
-      ]
-    },
-    {
-      "name": "Reading",
-      "keywords": [
-        "The Lord of the Rings",
-        "Harry Potter",
-        "Heroes of Olympus"
-      ]
-    }
-  ],
+  "interests": [],
   "references": [],
   "projects": [
-    {
-      "name": "Aora",
-      "isActive": true,
-      "startDate": "2024-04-17",
-      "endDate": "2024-04-18",
-      "description": "Social network application for Android and IOS",
-      "highlights": [
-        "Full-Stack",
-        "Responsive",
-        "React Native"
-      ],
-      "url": "https://github.com/Visama396/video-app"
-    },
-    {
-      "name": "Wakpedia",
-      "isActive": true,
-      "startDate": "2024-03-02",
-      "endDate": "2024-04-03",
-      "description": "Encyclopedia for Wakfu using the API given by Ankama",
-      "highlights": [
-        "External API",
-        "Colaborate"
-      ],
-      "url": "https://wakpedia.visamalog.com"
-    },
-    {
-      "name": "Idionative",
-      "isActive": false,
-      "startDate": "2019-05-01",
-      "endDate": "2019-06-01",
-      "description": "Website to help people learn languages.",
-      "highlights": [],
-      "url": null
-    },
     {
       "name": "Portfolio",
       "isActive": true,
       "startDate": "2024-01-10",
       "endDate": "2024-01-11",
-      "description": "Personal portfolio, made with Astro.",
+      "description": "Astroで作成した個人ポートフォリオ。",
       "highlights": [
-        "Responsive",
-        "Dark/Light Theme"
+        "レスポンシブ",
+        "ダークテーマ"
       ],
       "url": "https://visamalog.com/"
     },
     {
-      "name": "Pokédex",
+      "name": "Pokedex",
       "isActive": true,
       "startDate": "2024-01-11",
       "endDate": "2024-01-13",
-      "description": "Pokédex using the help of PokeAPI.co and their repository for the sprites.",
+      "description": "PokeAPIを使った図鑑。",
       "highlights": [
-        "External API",
-        "Responsive Design"
+        "外部API",
+        "レスポンシブ"
       ],
       "url": "https://pokedex.visamalog.com/"
     },
@@ -457,27 +407,12 @@
       "isActive": true,
       "startDate": "2024-01-13",
       "endDate": "2024-01-15",
-      "description": "Web Application for listening to music.",
+      "description": "音楽視聴ウェブアプリ。ReactとZustandで作成。",
       "highlights": [
         "Zustand",
-        "React",
-        "Spotify Design"
+        "React"
       ],
       "url": "https://viplay.visamalog.com/"
-    },
-    {
-      "name": "VisamaNote",
-      "isActive": false,
-      "startDate": "2019-02-04",
-      "endDate": "2019-02-04",
-      "description": "Desktop application for saving notes.",
-      "highlights": [
-        "Electron",
-        "React",
-        "Tailwind CSS",
-        "Typescript"
-      ],
-      "url": "https://github.com/Visama396/VisamaNote"
     }
   ]
 }

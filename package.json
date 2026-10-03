@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "minimalist-cv",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -10,9 +10,9 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.5.6",
-    "astro": "^4.4.13",
+    "@astrojs/check": "^0.5.10",
+    "astro": "^4.16.19",
     "ninja-keys": "^1.2.2",
-    "typescript": "^5.4.2"
+    "typescript": "^5.9.3"
   }
 }

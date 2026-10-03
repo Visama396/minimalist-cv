@@ -85,5 +85,15 @@ const { title } = Astro.props;
 		.no-print {
 			display: none !important;
 		}
+
+		section, article, li {
+			break-inside: avoid-page;
+			page-break-inside: avoid;
+		}
+
+		*, *::before, *::after {
+			print-color-adjust: exact;
+			-webkit-print-color-adjust: exact;
+		}
 	}
 </style>

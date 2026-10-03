@@ -1,18 +1,18 @@
 {
-  "basics": {
+  "basics_ga": {
     "name": "Víctor Sánchez Martínez",
-    "label": "Software Engineer and Games Developer",
+    "label": "Enxeñeiro de software e desenvolvedor de videoxogos",
     "image": "https://avatars.githubusercontent.com/u/35543599?v=4",
     "email": "visamalog@gmail.com",
     "phone": "+34 678052268",
     "url": "https://visamalog.com",
-    "summary": "I am committed to continuous learning and possess excellent communication and teamwork skills, along with a strong ability to learn quickly. I also stand out for my adaptability and problem-solving skills, which enable me to work effectively in a variety of environments and situations.",
+    "summary": "Considérome unha persoa comprometida coa aprendizaxe continua, con excelentes habilidades de comunicación e traballo en equipo, así como cunha gran capacidade de aprendizaxe. Ademais, destaco pola miña adaptabilidade e capacidade para resolver problemas, o que me permite desenvolverme eficazmente en diversos contornos e situacións.",
     "location": {
       "address": "",
       "postalCode": "32005",
       "city": "Ourense",
       "countryCode": "ES",
-      "region": "Spain"
+      "region": "España"
     },
     "profiles": [
       {
@@ -30,13 +30,13 @@
   "work": [
     {
       "name": "Imaginanet",
-      "position": "Web Developer",
+      "position": "Desenvolvedor web",
       "url": "https://www.imaginanet.com/",
       "startDate": "2019-10-01",
       "endDate": "2021-02-01",
-      "summary": "Developed new web and interactive projects in a small team, including migrating legacy Flash content to HTML5 and JavaScript and adding client-requested improvements. Communicated progress directly with clients and coordinated with the testing team using Git for version control alongside Jira and Trello, which helped me grow considerably as a developer.",
+      "summary": "Desenvolvín novos proxectos web e interactivos nun equipo pequeno, incluíndo a migración de Flash a HTML5 e JavaScript. Falei directamente cos clientes e coordineime co equipo de probas usando Git, Jira e Trello, o que me fixo medrar como desenvolvedor.",
       "highlights": [
-        "Agile development",
+        "Desenvolvemento áxil",
         "Angular",
         "Playcanvas",
         "Git"
@@ -44,23 +44,25 @@
     },
     {
       "name": "Stampwallet",
-      "position": "Web Developer",
+      "position": "Desenvolvedor web",
       "url": "https://www.puntje.nl/",
       "startDate": "2019-04-01",
       "endDate": "2019-06-06",
-      "summary": "Built the landing page for the new Puntje product and maintained code and services for previous and new clients. Refactored existing codebases, supported product delivery, and kept learning new technologies along the way, including React, Django and WordPress.",
+      "summary": "Creei a páxina de Puntje e mantiven código e servizos de clientes. Refactoricei código e apoiei a entrega de produtos mentres aprendía React, Django e WordPress.",
       "highlights": [
         "Wordpress",
-        "Apps Script with Google Sheets"
+        "Apps Script",
+        "PHP",
+        "React"
       ]
     },
     {
       "name": "Biyectiva",
-      "position": "Web Developer",
+      "position": "Desenvolvedor web",
       "url": "https://www.biyectiva.com/es/success-story/connectvty",
       "startDate": "2018-10-01",
       "endDate": "2019-03-30",
-      "summary": "Collaborated with the Biyectiva startup to build the client-facing website for their ConnecTVty application. Worked across frontend and backend with Laravel and Angular to deliver a stable, usable product for real customers.",
+      "summary": "Colaborei con Biyectiva na web de ConnecTVty. Traballei en frontend e backend con Laravel e Angular para un produto estable.",
       "highlights": [
         "Laravel",
         "Angular"
@@ -72,90 +74,89 @@
     {
       "institution": "ESEI Ourense",
       "url": "https://esei.uvigo.es/",
-      "area": "Computer Engineering",
-      "studyType": "Degree",
+      "area": "Enxeñaría informática",
+      "studyType": "Grao",
       "startDate": "2022-09-01",
       "score": "",
       "courses": [
-        "Programming Fundamentals",
-        "Mathematics",
-        "Algorithms",
-        "Architectures",
-        "C++ Programming",
-        "Software Engineering"
+        "Programación",
+        "Matemáticas",
+        "Algoritmos",
+        "Arquitecturas",
+        "C++",
+        "Enxeñaría do software"
       ]
     },
     {
       "institution": "The Core School",
       "url": "https://www.thecoreschool.com/",
-      "area": "Software Development",
+      "area": "Desenvolvemento de videoxogos",
       "studyType": "Diploma",
       "startDate": "2021-09-01",
       "endDate": "2022-06-01",
       "score": "8.1",
       "courses": [
-        "Game Programming Fundamentals",
-        "Introduction to Unity",
-        "Prototyping and Development in Unity",
-        "Introduction to Unreal Engine",
-        "C++ Programming",
-        "Animation Implementation",
-        "Artificial Intelligence in Unreal Engine",
-        "Multiplayer Structure Fundamentals",
-        "Multiplayer Synchronization in Unreal Engine",
-        "Rendering and Physics in Unreal Engine"
+        "Fundamentos",
+        "Unity",
+        "Unity avanzado",
+        "Unreal Engine",
+        "C++",
+        "Animacións",
+        "IA",
+        "Multixogador",
+        "Sincronización",
+        "Renderizado"
       ]
     },
     {
       "institution": "CIFP Carlos III",
       "url": "https://cifpcarlos3.es/es",
-      "area": "Software Development",
-      "studyType": "Diploma",
+      "area": "Desenvolvemento web",
+      "studyType": "Ciclo superior",
       "startDate": "2017-09-01",
       "endDate": "2019-06-01",
       "score": "8.2",
       "courses": [
-        "Computer Systems",
-        "Databases",
-        "Programming",
-        "Development Environments",
-        "English",
-        "HTML5, CSS3 and JavaScript",
-        "Client Side Web Development",
-        "Server Side Web Development",
-        "Web Applications deployment",
-        "Web Interfaces Design"
+        "Sistemas",
+        "Bases de datos",
+        "Programación",
+        "Entornos",
+        "HTML5, CSS3 e JavaScript",
+        "Cliente",
+        "Servidor",
+        "Despregamento",
+        "Interfaces"
       ]
     },
     {
-      "institution": "CIFP Hespérides",
+      "institution": "CIFP Hesperides",
       "url": "https://cifphesperides.es/2020/",
-      "area": "Computers and Networks",
-      "studyType": "Diploma",
+      "area": "Sistemas e redes",
+      "studyType": "Ciclo medio",
       "startDate": "2015-09-01",
       "endDate": "2017-06-01",
       "score": "7.8",
       "courses": [
-        "Systems Maintenance and Installation",
-        "Operating Systems",
-        "Local Networks",
-        "Office Suite Applications",
-        "IT Security",
-        "Network Services",
-        "Web Applications"
+        "Mantemento",
+        "Sistemas operativos",
+        "Redes",
+        "Ofimática",
+        "Seguridade",
+        "Servizos",
+        "Web"
       ]
     }
   ],
   "awards": [],
   "certificates": [
     {
-      "name": "Python and Django",
+      "name": "Python e Django",
       "date": "2019-03-01",
       "issuer": "O2W Leading Software",
       "url": "https://visamalog.com/documents/Python_Django_Certificate.pdf"
     },
     {
-      "name": "React Native Course",
+      "name": "Curso de React Native",
       "date": "2019-06-24",
       "issuer": "Udemy",
       "url": "https://ude.my/UC-VDZTYOAI"
@@ -358,97 +359,48 @@
   ],
   "languages": [
     {
-      "language": "English",
-      "fluency": "Advanced C1"
+      "language": "Inglés",
+      "fluency": "Avanzado C1"
     },
     {
-      "language": "German",
-      "fluency": "Intermediate B1"
+      "language": "Alemán",
+      "fluency": "Intermedio B1"
     },
     {
-      "language": "Japanese",
-      "fluency": "Basic N5"
+      "language": "Xaponés",
+      "fluency": "Básico N5"
     },
     {
-      "language": "Spanish",
-      "fluency": "Native"
+      "language": "Español",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "Galego",
+      "fluency": "Nativo"
     }
   ],
-  "interests": [
-    {
-      "name": "Travel",
-      "keywords": [
-        "Countryside",
-        "Sightseeing",
-        "Culture"
-      ]
-    },
-    {
-      "name": "Reading",
-      "keywords": [
-        "The Lord of the Rings",
-        "Harry Potter",
-        "Heroes of Olympus"
-      ]
-    }
-  ],
+  "interests": [],
   "references": [],
   "projects": [
-    {
-      "name": "Aora",
-      "isActive": true,
-      "startDate": "2024-04-17",
-      "endDate": "2024-04-18",
-      "description": "Social network application for Android and IOS",
-      "highlights": [
-        "Full-Stack",
-        "Responsive",
-        "React Native"
-      ],
-      "url": "https://github.com/Visama396/video-app"
-    },
-    {
-      "name": "Wakpedia",
-      "isActive": true,
-      "startDate": "2024-03-02",
-      "endDate": "2024-04-03",
-      "description": "Encyclopedia for Wakfu using the API given by Ankama",
-      "highlights": [
-        "External API",
-        "Colaborate"
-      ],
-      "url": "https://wakpedia.visamalog.com"
-    },
-    {
-      "name": "Idionative",
-      "isActive": false,
-      "startDate": "2019-05-01",
-      "endDate": "2019-06-01",
-      "description": "Website to help people learn languages.",
-      "highlights": [],
-      "url": null
-    },
     {
       "name": "Portfolio",
       "isActive": true,
       "startDate": "2024-01-10",
       "endDate": "2024-01-11",
-      "description": "Personal portfolio, made with Astro.",
+      "description": "Portfolio persoal feito con Astro.",
       "highlights": [
-        "Responsive",
-        "Dark/Light Theme"
+        "Responsive"
       ],
       "url": "https://visamalog.com/"
     },
     {
-      "name": "Pokédex",
+      "name": "Pokedex",
       "isActive": true,
       "startDate": "2024-01-11",
       "endDate": "2024-01-13",
-      "description": "Pokédex using the help of PokeAPI.co and their repository for the sprites.",
+      "description": "Pokedex coa PokeAPI.",
       "highlights": [
-        "External API",
-        "Responsive Design"
+        "API externa"
       ],
       "url": "https://pokedex.visamalog.com/"
     },
@@ -457,27 +409,12 @@
       "isActive": true,
       "startDate": "2024-01-13",
       "endDate": "2024-01-15",
-      "description": "Web Application for listening to music.",
+      "description": "App web de música con React e Zustand.",
       "highlights": [
         "Zustand",
-        "React",
-        "Spotify Design"
+        "React"
       ],
       "url": "https://viplay.visamalog.com/"
-    },
-    {
-      "name": "VisamaNote",
-      "isActive": false,
-      "startDate": "2019-02-04",
-      "endDate": "2019-02-04",
-      "description": "Desktop application for saving notes.",
-      "highlights": [
-        "Electron",
-        "React",
-        "Tailwind CSS",
-        "Typescript"
-      ],
-      "url": "https://github.com/Visama396/VisamaNote"
     }
   ]
 }

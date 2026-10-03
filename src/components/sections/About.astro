@@ -3,18 +3,34 @@ import Section from '@/components/Section.astro'
 
 import { basics } from '@cv'
 import { basics_es } from '@escv'
+import { basics_de } from '@decv'
+import { basics_ja } from '@jacv'
+import { basics_ga } from '@gacv'
 
 const { language } = Astro.props
 
-let { summary } = basics 
-
-if (language == 'es') {
-  summary = basics_es.summary
+const titles: Record<string, string> = {
+  en: 'Resume',
+  es: 'Resumen',
+  de: 'Zusammenfassung',
+  ja: '概要',
+  ga: 'Resumo',
 }
+
+const summaries: Record<string, string> = {
+  en: basics.summary,
+  es: basics_es.summary,
+  de: basics_de.summary,
+  ja: basics_ja.summary,
+  ga: basics_ga.summary,
+}
+
+const summary = summaries[language ?? 'en'] ?? basics.summary
+const title = titles[language ?? 'en'] ?? titles.en
 
 ---
 
-<Section title={`${(language == 'es')? 'Resumen' : 'Resume'}`}>
+<Section title={title}>
   <p>
     {summary}
   </p>

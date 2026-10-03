@@ -12,23 +12,23 @@ import Skills from '@/components/sections/Skills.astro'
 
 import KeyboardManager from '@/components/KeyboardManager.astro'
 
-import { basics_es } from '@escv'
-const { name, label } = basics_es
+import { basics_de } from '@decv'
+const { name, label } = basics_de
 ---
 
-<Layout title={`Portfolio de ${name} - ${label}`}>
+<Layout title={`Portfolio von ${name} - ${label}`}>
 	<main>
-		<Hero language="es" />
-		<About language="es" />
-		<Experience language="es" />
-		<Education language="es" />
-		<Skills language="es" />
-		<Languages language="es" />
-		<Projects language="es" />
-		<Certificates language="es" />
+		<Hero language="de" />
+		<About language="de" />
+		<Experience language="de" />
+		<Education language="de" />
+		<Skills language="de" />
+		<Languages language="de" />
+		<Projects language="de" />
+		<Certificates language="de" />
 	</main>
 
-	<KeyboardManager language="es" />
+	<KeyboardManager language="de" />
 </Layout>
 
 <style>

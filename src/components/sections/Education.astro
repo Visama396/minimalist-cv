@@ -3,23 +3,36 @@ import Section from '@/components/Section.astro'
 
 import { education } from '@cv'
 import { education as eseducation } from '@escv'
+import { education as deeducation } from '@decv'
+import { education as jaeducation } from '@jacv'
+import { education as gaeducation } from '@gacv'
 
 const { language } = Astro.props
 
-let schools = education
+const titles: Record<string, string> = {
+  en: 'Education',
+  es: 'Educación',
+  de: 'Ausbildung',
+  ja: '学歴',
+  ga: 'Formación',
+}
 
-if (language == 'es') schools = eseducation
+const allSchools: Record<string, typeof education> = {
+  en: education,
+  es: eseducation,
+  de: deeducation,
+  ja: jaeducation,
+  ga: gaeducation,
+}
+
+const schools = allSchools[language ?? 'en'] ?? education
+const title = titles[language ?? 'en'] ?? titles.en
 ---
 
-<Section title={`${(language == 'es')? 'Estudios' : 'Education'}`}>
+<Section title={title}>
   <ul>
     {
-      schools.map(({ institution, url, area, courses, startDate, endDate}) => {
-        const startYear = new Date(startDate).getFullYear()
-        const endYear = endDate != null ? new Date(endDate).getFullYear() : (language == 'es')? 'Actualmente' : 'Currently'
-
-        const years = `${startYear} - ${endYear}`
-
+      schools.map(({ institution, url, area, courses}) => {
         return (
           <li>
             <article>
@@ -28,7 +41,6 @@ if (language == 'es') schools = eseducation
                   <h3>{institution}</h3>
                   <h4>{area}</h4>
                 </div>
-                <time>{years}</time>
               </header>
               <footer>
                 {

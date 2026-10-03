@@ -3,15 +3,33 @@ import Section from '@/components/Section.astro'
 
 import { languages } from '@cv'
 import { languages as eslanguages } from '@escv'
+import { languages as delanguages } from '@decv'
+import { languages as jalanguages } from '@jacv'
+import { languages as galanguages } from '@gacv'
 
 const { language } = Astro.props
 
-let langs = languages
+const titles: Record<string, string> = {
+  en: 'Languages',
+  es: 'Idiomas',
+  de: 'Sprachen',
+  ja: '言語',
+  ga: 'Idiomas',
+}
 
-if (language == 'es') langs = eslanguages
+const allLangs: Record<string, typeof languages> = {
+  en: languages,
+  es: eslanguages,
+  de: delanguages,
+  ja: jalanguages,
+  ga: galanguages,
+}
+
+const langs = allLangs[language ?? 'en'] ?? languages
+const title = titles[language ?? 'en'] ?? titles.en
 ---
 
-<Section title={`${(language == 'es')? 'Idiomas' : 'Languages'}`}>
+<Section title={title}>
   <ul>
     {
       langs.map(({ language, fluency }) => (

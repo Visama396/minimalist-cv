@@ -1,7 +1,7 @@
 {
   "basics_es": {
     "name": "Víctor Sánchez Martínez",
-    "label": "Desarrollador Full Stack & Programador de Videojuegos. Estudiante de Ingeniería Informática.",
+    "label": "Ingeniero de Software y Desarrollador de Videojuegos",
     "image": "https://avatars.githubusercontent.com/u/35543599?v=4",
     "email": "visamalog@gmail.com",
     "phone": "+34 678 05 22 68",
@@ -14,365 +14,452 @@
       "countryCode": "ES",
       "region": "España"
     },
-    "profiles": [{
-      "network": "GitHub",
-      "username": "visama396",
-      "url": "https://github.com/visama396"
-    }, {
-      "network": "LinkedIn",
-      "username": "visamalog",
-      "url": "https://linkedin.com/in/visamalog"
-    }, {
-      "network": "X",
-      "username": "visama396",
-      "url": "https://x.com/visama396"
-    }]
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "visama396",
+        "url": "https://github.com/visama396"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "visamalog",
+        "url": "https://linkedin.com/in/visamalog"
+      }
+    ]
   },
-  "work": [{
+  "work": [
+    {
       "name": "Imaginanet",
       "position": "Desarrollador Web",
       "url": "https://www.imaginanet.com/",
       "startDate": "2019-10-01",
       "endDate": "2021-02-01",
-      "summary": "Recodificar proyecto que estaba en Flash a HTML5 y Javascript atendiendo a mejoras o actualizaciones que el cliente quisiera añadir, y desarrollar nuevos proyectos. Control de versiones para asegurar backups del proyecto con Git, y uso de Jira y Trello para comunicarse con el equipo de testing.",
+      "summary": "Desarrollé nuevos proyectos web e interactivos en un equipo pequeño, incluyendo la migración de contenido Flash a HTML5 y JavaScript y la incorporación de mejoras pedidas por el cliente. Me comuniqué directamente con los clientes sobre el estado del desarrollo y me coordiné con el equipo de pruebas usando Git para el control de versiones junto con Jira y Trello, lo que me permitió crecer mucho como desarrollador.",
       "highlights": [
         "Desarrollo Ágil",
         "Angular",
         "Playcanvas",
         "Git"
       ]
-    }, {
+    },
+    {
       "name": "Stampwallet",
       "position": "Desarrollador Web",
       "url": "https://www.puntje.nl/",
       "startDate": "2019-04-01",
       "endDate": "2019-06-06",
-      "summary": "Crear la página del nuevo producto Puntje. Mantenimiento de código y desarrollo de servicios y proyectos de anteriores y nuevos clientes. Aprendiendo por el camino React Native, Django y Wordpress.",
+      "summary": "Creé la página de destino del nuevo producto Puntje y mantuve el código y los servicios de clientes anteriores y nuevos. Refactoricé bases de código existentes, apoyé la entrega de productos y seguí aprendiendo nuevas tecnologías por el camino, incluyendo React, Django y WordPress.",
       "highlights": [
         "Wordpress",
         "Apps Script con Google Sheets",
         "PHP",
         "React"
       ]
-    }, {
+    },
+    {
       "name": "Biyectiva",
       "position": "Desarrollador Web",
       "url": "https://www.biyectiva.com/es/success-story/connectvty",
       "startDate": "2018-10-01",
       "endDate": "2019-03-30",
-      "summary": "Colaboración en la Startup de Biyectiva para crear la web de clientes de la aplicación ConnecTvTy.",
+      "summary": "Colaboré con la startup Biyectiva para crear la web de clientes de su aplicación ConnecTVty. Trabajé tanto en frontend como en backend con Laravel y Angular para entregar un producto estable y fácil de usar para clientes reales.",
       "highlights": [
         "Laravel",
         "Angular"
       ]
-  }],
+    }
+  ],
   "volunteer": [],
-  "education": [{
-    "institution": "ESEI Ourense",
-    "url": "https://esei.uvigo.es/",
-    "area": "Ingeniería Informática",
-    "studyType": "Carrera",
-    "startDate": "2022-09-01",
-    "score": "",
-    "courses": [
-      "Programación",
-      "Matemáticas",
-      "Algoritmos",
-      "Arquitecturas de Software",
-      "C++",
-      "Ingeniería del Software"
-    ]
-  },{
-    "institution": "The Core School",
-    "url": "https://www.thecoreschool.com/",
-    "area": "Desarrollo de Videojuegos",
-    "studyType": "Diploma",
-    "startDate": "2021-09-01",
-    "endDate": "2022-06-01",
-    "score": "8.1",
-    "courses": [
-      "Fundamentos de la Programación de Videojuegos",
-      "Introducción a Unity",
-      "Prototipado y desarrollo en Unity",
-      "Introducción a Unreal Engine",
-      "Programación en C++",
-      "Implementación de Animations",
-      "Inteligencia Artificial de Unreal Engine",
-      "Fundamentos de Estructura Multijugador",
-      "Sincronización Multijugador de Unreal Engine",
-      "Físicas y Renderizado de Unreal Engine"
-    ]
-  },{
-    "institution": "CIFP Carlos III",
-    "url": "https://cifpcarlos3.es/es",
-    "area": "Desarrollo de Aplicaciones Web - DAW",
-    "studyType": "Grado Superior",
-    "startDate": "2017-09-01",
-    "endDate": "2019-06-01",
-    "score": "8.2",
-    "courses": [
-      "Sistemas informáticos",
-      "Bases de datos",
-      "Programación",
-      "Entornos de desarrollo",
-      "HTMl5, CSS3 y JavaScript",
-      "Desarrollo web del lado cliente",
-      "Desarrollo web del lado servidor",
-      "Despliegue de aplicaciones web",
-      "Diseño de interfaces web"
-    ]
-  }, {
-    "institution": "CIFP Hespérides",
-    "url": "https://cifphesperides.es/2020/",
-    "area": "Sistemas Microinformáticos y Redes - SMR",
-    "studyType": "Gradio Medio",
-    "startDate": "2015-09-01",
-    "endDate": "2017-06-01",
-    "score": "7.8",
-    "courses": [
-      "Mantenimiento e instalación de equipos",
-      "Sistemas operativos",
-      "Redes locales",
-      "Aplicaciones ofimáticas",
-      "Seguridad informática",
-      "Servicios en red",
-      "Aplicaciones web"
-    ]
-  }],
+  "education": [
+    {
+      "institution": "ESEI Ourense",
+      "url": "https://esei.uvigo.es/",
+      "area": "Ingeniería Informática",
+      "studyType": "Carrera",
+      "startDate": "2022-09-01",
+      "score": "",
+      "courses": [
+        "Programación",
+        "Matemáticas",
+        "Algoritmos",
+        "Arquitecturas de Software",
+        "C++",
+        "Ingeniería del Software"
+      ]
+    },
+    {
+      "institution": "The Core School",
+      "url": "https://www.thecoreschool.com/",
+      "area": "Desarrollo de Videojuegos",
+      "studyType": "Diploma",
+      "startDate": "2021-09-01",
+      "endDate": "2022-06-01",
+      "score": "8.1",
+      "courses": [
+        "Fundamentos de la Programación de Videojuegos",
+        "Introducción a Unity",
+        "Prototipado y desarrollo en Unity",
+        "Introducción a Unreal Engine",
+        "Programación en C++",
+        "Implementación de animaciones",
+        "Inteligencia Artificial de Unreal Engine",
+        "Fundamentos de Estructura Multijugador",
+        "Sincronización Multijugador de Unreal Engine",
+        "Renderizado y físicas de Unreal Engine"
+      ]
+    },
+    {
+      "institution": "CIFP Carlos III",
+      "url": "https://cifpcarlos3.es/es",
+      "area": "Desarrollo de Aplicaciones Web - DAW",
+      "studyType": "Grado Superior",
+      "startDate": "2017-09-01",
+      "endDate": "2019-06-01",
+      "score": "8.2",
+      "courses": [
+        "Sistemas informáticos",
+        "Bases de datos",
+        "Programación",
+        "Entornos de desarrollo",
+        "HTML5, CSS3 y JavaScript",
+        "Desarrollo web del lado cliente",
+        "Desarrollo web del lado servidor",
+        "Despliegue de aplicaciones web",
+        "Diseño de interfaces web"
+      ]
+    },
+    {
+      "institution": "CIFP Hespérides",
+      "url": "https://cifphesperides.es/2020/",
+      "area": "Sistemas Microinformáticos y Redes - SMR",
+      "studyType": "Grado Medio",
+      "startDate": "2015-09-01",
+      "endDate": "2017-06-01",
+      "score": "7.8",
+      "courses": [
+        "Mantenimiento e instalación de equipos",
+        "Sistemas operativos",
+        "Redes locales",
+        "Aplicaciones ofimáticas",
+        "Seguridad informática",
+        "Servicios en red",
+        "Aplicaciones web"
+      ]
+    }
+  ],
   "awards": [],
-  "certificates": [{
-    "name": "Python y Django",
-    "date": "2019-03-01",
-    "issuer": "O2W Leading Software",
-    "url": "https://visamalog.com/documents/Python_Django_Certificate.pdf"
-  }, {
-    "name": "Curso de React Native",
-    "date": "2019-06-24",
-    "issuer": "Udemy",
-    "url": "https://ude.my/UC-VDZTYOAI"
-  }],
+  "certificates": [
+    {
+      "name": "Python y Django",
+      "date": "2019-03-01",
+      "issuer": "O2W Leading Software",
+      "url": "https://visamalog.com/documents/Python_Django_Certificate.pdf"
+    },
+    {
+      "name": "Curso de React Native",
+      "date": "2019-06-24",
+      "issuer": "Udemy",
+      "url": "https://ude.my/UC-VDZTYOAI"
+    }
+  ],
   "publications": [],
-  "skills": [{
-    "name": "HTML",
-    "level": "Advanced",
-    "keywords": [
-      "Web Development", "Frontend"
-    ]
-  }, {
-    "name": "CSS",
-    "level": "Intermediate",
-    "keywords": [
-      "Web Development", "Frontend", "Responsive"
-    ]
-  }, {
-    "name": "Javascript",
-    "level": "Intermediate",
-    "keywords": [
-      "Web Development", "Frontend", "Backend", "Full Stack"
-    ]
-  }, {
-    "name": "Tailwind",
-    "level": "Intermediate",
-    "keywords": [
-      "Web Development", "Frontend", "CSS Framework", "Responsive"
-    ]
-  }, {
-    "name": "Typescript",
-    "level": "Intermediate",
-    "keywords": [
-      "Web Development", "Frontend", "Backend", "Javascript Superset"
-    ]
-  }, {
-    "name": "Node",
-    "level": "Intermediate",
-    "keywords": [
-      "Web Development", "Backend", "Javascript", "Server"
-    ]
-  }, {
-    "name": "MySQL",
-    "level": "Intermediate",
-    "keywords": [
-      "Databases", "SQL", "Data Storing", "Backend"
-    ]
-  }, {
-    "name": "Git",
-    "level": "Advanced",
-    "keywords": [
-      "Version Control", "Colaboration", "Source Code"
-    ]
-  }, {
-    "name": "Next.js",
-    "level": "Beginner",
-    "keywords": [
-      "Web Development", "Frontend", "React Framework", "SSR", "Static Generation"
-    ]
-  }, {
-    "name": "React",
-    "level": "Beginner",
-    "keywords": [
-      "Web Development", "Frontend", "Javascript Library", "UI"
-    ]
-  }, {
-    "name": "Astro",
-    "level": "Intermediate",
-    "keywords": [
-      "Web Development", "Frontend", "SSR", "Static Generation"
-    ]
-  }, {
-    "name": "Laravel",
-    "level": "Intermediate",
-    "keywords": [
-      "Web Development", "Backend", "CRUD", "PHP Framework"
-    ]
-  }, {
-    "name": "Django",
-    "level": "Intermediate",
-    "keywords": [
-      "Web Development", "Backend", "CRUD", "Python Framework"
-    ]
-  }, {
-    "name": "Java",
-    "level": "Intermediate",
-    "keywords": [
-      "Backend"
-    ]
-  }, {
-    "name": "PHP",
-    "level": "Intermediate",
-    "keywords": [
-      "Backend", "CRUD"
-    ]
-  }, {
-    "name": "Python",
-    "level": "Intermediate",
-    "keywords": [
-      "Backend"
-    ]
-  }, {
-    "name": "C#",
-    "level": "Intermediate",
-    "keywords": [
-      "Backend"
-    ]
-  }, {
-    "name": "C++",
-    "level": "Intermediate",
-    "keywords": [
-      "Backend"
-    ]
-  }, {
-    "name": "Unity",
-    "level": "Intermediate",
-    "keywords": [
-      "Games"
-    ]
-  }, {
-    "name": "Unreal Engine",
-    "level": "Intermediate",
-    "keywords": [
-      "Games"
-    ]
-  }, {
-    "name": "Blender",
-    "level": "Basic",
-    "keywords": [
-      "3D Modeling"
-    ]
-  }],
-  "languages": [{
-    "language": "Inglés",
-    "fluency": "Avanzado C1"
-  }, {
-    "language": "Alemán",
-    "fluency": "Intermedio B1"
-  },{
-    "language": "Japonés",
-    "fluency": "Básico N5"
-  }, {
-    "language": "Español",
-    "fluency": "Nativo"
-  }],
-  "interests": [{
-    "name": "Viajar",
-    "keywords": [
-      "Ciudades y Pueblos",
-      "Explorar",
-      "Cultura"
-    ]
-  }, {
-    "name": "Leer",
-    "keywords": [
-      "The Lord of the Rings",
-      "Harry Potter",
-      "Heroes of Olympus"
-    ]
-  }],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Responsive"
+      ]
+    },
+    {
+      "name": "Javascript",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Backend",
+        "Full Stack"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "CSS Framework",
+        "Responsive"
+      ]
+    },
+    {
+      "name": "Typescript",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Backend",
+        "Javascript Superset"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "Javascript",
+        "Server"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Intermediate",
+      "keywords": [
+        "Databases",
+        "SQL",
+        "Data Storing",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Advanced",
+      "keywords": [
+        "Version Control",
+        "Colaboration",
+        "Source Code"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "level": "Beginner",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Beginner",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Javascript Library",
+        "UI"
+      ]
+    },
+    {
+      "name": "Astro",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "SSR",
+        "Static Generation"
+      ]
+    },
+    {
+      "name": "Laravel",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "CRUD",
+        "PHP Framework"
+      ]
+    },
+    {
+      "name": "Django",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "CRUD",
+        "Python Framework"
+      ]
+    },
+    {
+      "name": "Java",
+      "level": "Intermediate",
+      "keywords": [
+        "Backend"
+      ]
+    },
+    {
+      "name": "PHP",
+      "level": "Intermediate",
+      "keywords": [
+        "Backend",
+        "CRUD"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Intermediate",
+      "keywords": [
+        "Backend"
+      ]
+    },
+    {
+      "name": "C#",
+      "level": "Intermediate",
+      "keywords": [
+        "Backend"
+      ]
+    },
+    {
+      "name": "C++",
+      "level": "Intermediate",
+      "keywords": [
+        "Backend"
+      ]
+    },
+    {
+      "name": "Unity",
+      "level": "Intermediate",
+      "keywords": [
+        "Games"
+      ]
+    },
+    {
+      "name": "Unreal Engine",
+      "level": "Intermediate",
+      "keywords": [
+        "Games"
+      ]
+    },
+    {
+      "name": "Blender",
+      "level": "Basic",
+      "keywords": [
+        "3D Modeling"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Inglés",
+      "fluency": "Avanzado C1"
+    },
+    {
+      "language": "Alemán",
+      "fluency": "Intermedio B1"
+    },
+    {
+      "language": "Japonés",
+      "fluency": "Básico N5"
+    },
+    {
+      "language": "Español",
+      "fluency": "Nativo"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Viajar",
+      "keywords": [
+        "Ciudades y Pueblos",
+        "Explorar",
+        "Cultura"
+      ]
+    },
+    {
+      "name": "Leer",
+      "keywords": [
+        "The Lord of the Rings",
+        "Harry Potter",
+        "Heroes of Olympus"
+      ]
+    }
+  ],
   "references": [],
-  "projects": [{
-    "name": "Porfolio",
-    "isActive": true,
-    "startDate": "2024-01-10",
-    "endDate": "2024-01-11",
-    "description": "Portafolio personal, hecho con Astro.",
-    "highlights": [
-      "Responsive",
-      "Tema Oscuro/Luz"
-    ],
-    "url": "https://visamalog.com/"
-  }, {
-    "name": "Pokédex",
-    "isActive": true,
-    "startDate": "2024-01-11",
-    "endDate": "2024-01-13",
-    "description": "Pokédex hecha con la PokeAPI.co y su repositorio para las sprites.",
-    "highlights": [
-      "API externa",
-      "Responsive Design"
-    ],
-    "url": "https://pokedex.visamalog.com/"
-  }, {
-    "name": "Viplay",
-    "isActive": true,
-    "startDate": "2024-01-13",
-    "endDate": "2024-01-15",
-    "description": "Aplicación web para escuchar mi música favorita. Hecha con React y Zustand.",
-    "highlights": [
-      "Zustand", "React", "Spotify Design"
-    ],
-    "url": "https://viplay.visamalog.com/"
-  }, {
-    "name": "Wakpedia",
-    "isActive": true,
-    "startDate": "2024-03-02",
-    "endDate": "2024-04-03",
-    "description": "Enciclopedia de Wakfu con uso de la API de Ankama. Wakfu es un producto de Ankama.",
-    "highlights": [
-      "API externa",
-      "Colaboración"
-    ],
-    "url": "https://wakpedia.visamalog.com"
-  }, {
-    "name": "VisamaNote",
-    "isActive": false,
-    "startDate": "2019-02-04",
-    "endDate": "2019-02-04",
-    "description": "Aplicación de escritorio para guardar apuntes. Hecha con Electron y React.",
-    "highlights": [
-      "Electron",
-      "React",
-      "Tailwind CSS",
-      "Typescript"
-    ],
-    "url": "https://github.com/Visama396/VisamaNote"
-  }, {
-    "name": "Idionative",
-    "isActive": false,
-    "startDate": "2019-05-01",
-    "endDate": "2019-06-01",
-    "description": "Página web para aprender idiomas extranjeros.",
-    "highlights": [
-      "Laravel"
-    ],
-    "url": null
-  }]
+  "projects": [
+    {
+      "name": "Porfolio",
+      "isActive": true,
+      "startDate": "2024-01-10",
+      "endDate": "2024-01-11",
+      "description": "Portafolio personal, hecho con Astro.",
+      "highlights": [
+        "Responsive",
+        "Tema Oscuro/Luz"
+      ],
+      "url": "https://visamalog.com/"
+    },
+    {
+      "name": "Pokédex",
+      "isActive": true,
+      "startDate": "2024-01-11",
+      "endDate": "2024-01-13",
+      "description": "Pokédex hecha con la PokeAPI.co y su repositorio para las sprites.",
+      "highlights": [
+        "API externa",
+        "Responsive Design"
+      ],
+      "url": "https://pokedex.visamalog.com/"
+    },
+    {
+      "name": "Viplay",
+      "isActive": true,
+      "startDate": "2024-01-13",
+      "endDate": "2024-01-15",
+      "description": "Aplicación web para escuchar mi música favorita. Hecha con React y Zustand.",
+      "highlights": [
+        "Zustand",
+        "React",
+        "Spotify Design"
+      ],
+      "url": "https://viplay.visamalog.com/"
+    },
+    {
+      "name": "Wakpedia",
+      "isActive": true,
+      "startDate": "2024-03-02",
+      "endDate": "2024-04-03",
+      "description": "Enciclopedia de Wakfu con uso de la API de Ankama. Wakfu es un producto de Ankama.",
+      "highlights": [
+        "API externa",
+        "Colaboración"
+      ],
+      "url": "https://wakpedia.visamalog.com"
+    },
+    {
+      "name": "VisamaNote",
+      "isActive": false,
+      "startDate": "2019-02-04",
+      "endDate": "2019-02-04",
+      "description": "Aplicación de escritorio para guardar apuntes. Hecha con Electron y React.",
+      "highlights": [
+        "Electron",
+        "React",
+        "Tailwind CSS",
+        "Typescript"
+      ],
+      "url": "https://github.com/Visama396/VisamaNote"
+    },
+    {
+      "name": "Idionative",
+      "isActive": false,
+      "startDate": "2019-05-01",
+      "endDate": "2019-06-01",
+      "description": "Página web para aprender idiomas extranjeros.",
+      "highlights": [
+        "Laravel"
+      ],
+      "url": null
+    }
+  ]
 }

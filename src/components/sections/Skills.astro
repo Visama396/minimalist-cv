@@ -4,9 +4,19 @@ import Section from '@/components/Section.astro'
 import { skills } from '@cv'
 
 const { language } = Astro.props
+
+const titles: Record<string, string> = {
+  en: 'Skills',
+  es: 'Habilidades',
+  de: 'Kenntnisse',
+  ja: 'スキル',
+  ga: 'Habilidades',
+}
+
+const title = titles[language ?? 'en'] ?? titles.en
 ---
 
-<Section title={`${(language == 'es')? 'Tecnologías' : 'Stack Tech'}`}>
+<Section title={title}>
   <ul>
     {
       skills.map(({ name }) => (

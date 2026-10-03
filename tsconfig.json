@@ -9,6 +9,15 @@
       "@escv": [
         "./src/cv_es.json"
       ],
+      "@decv": [
+        "./src/cv_de.json"
+      ],
+      "@jacv": [
+        "./src/cv_ja.json"
+      ],
+      "@gacv": [
+        "./src/cv_ga.json"
+      ],
       "@/*": [
         "src/*"
       ]

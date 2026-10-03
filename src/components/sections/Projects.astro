@@ -2,13 +2,36 @@
 import Section from '@/components/Section.astro'
 
 import { projects } from '@cv'
+import { projects as esprojects } from '@escv'
+import { projects as deprojects } from '@decv'
+import { projects as japrojects } from '@jacv'
+import { projects as gaprojects } from '@gacv'
 
 const { language } = Astro.props
+
+const titles: Record<string, string> = {
+  en: 'Projects',
+  es: 'Proyectos',
+  de: 'Projekte',
+  ja: 'プロジェクト',
+  ga: 'Proxectos',
+}
+
+const allProjects: Record<string, any[]> = {
+  en: projects,
+  es: esprojects,
+  de: deprojects,
+  ja: japrojects,
+  ga: gaprojects,
+}
+
+const list = allProjects[language ?? 'en'] ?? projects
+const title = titles[language ?? 'en'] ?? titles.en
 ---
-<Section title={`${(language == 'es')? 'Proyectos' : 'Projects'}`}>
+<Section title={title}>
   <ul>
     {
-      projects.map(({ url, description, highlights, name, isActive }) => {
+      list.map(({ url, description, highlights, name, isActive }) => {
         return (
           <li>
             <article>
@@ -25,7 +48,7 @@ const { language } = Astro.props
               </header>
               <footer>
                 {
-                  highlights.map((highlight) => {
+                  highlights.map((highlight: string) => {
                     return (
                       <span>{highlight}</span>
                     )

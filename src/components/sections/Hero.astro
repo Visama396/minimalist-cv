@@ -4,25 +4,48 @@ import Section from '@/components/Section.astro'
 import Mail from '@/icons/Mail.astro'
 import Phone from '@/icons/Phone.astro'
 import WorldMap from '@/icons/WorldMap.astro'
-import X from '@/icons/X.astro'
 import GitHub from '@/icons/GitHub.astro'
 import LinkedIn from '@/icons/LinkedIn.astro'
 
 const { language } = Astro.props
 
-import { basics_es } from '@escv'
 import { basics } from '@cv'
+import { basics_es } from '@escv'
+import { basics_de } from '@decv'
+import { basics_ja } from '@jacv'
+import { basics_ga } from '@gacv'
 
-let { name, label, image, location, profiles, phone, email } = basics
+let { name, location, profiles, phone, email } = basics
+let label = basics.label
 
 if (language == 'es') {
   name = basics_es.name
   label = basics_es.label
-  image = basics_es.image
   location = basics_es.location
   profiles = basics_es.profiles
   phone = basics_es.phone
   email = basics_es.email
+} else if (language == 'de') {
+  name = basics_de.name
+  label = basics_de.label
+  location = basics_de.location
+  profiles = basics_de.profiles
+  phone = basics_de.phone
+  email = basics_de.email
+} else if (language == 'ja') {
+  name = basics_ja.name
+  label = basics_ja.label
+  location = basics_ja.location
+  profiles = basics_ja.profiles
+  phone = basics_ja.phone
+  email = basics_ja.email
+} else if (language == 'ga') {
+  name = basics_ga.name
+  label = basics_ga.label
+  location = basics_ga.location
+  profiles = basics_ga.profiles
+  phone = basics_ga.phone
+  email = basics_ga.email
 }
 
 const { city, region } = location
@@ -30,17 +53,15 @@ const { city, region } = location
 const SOCIAL_ICONS: Record<string, any> = {
   GitHub,
   LinkedIn,
-  X,
 }
 
 const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
 const linkedUrl = linkedInfo?.url
 
-const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
+const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" \u2022 ")
 ---
 <Section>
   <div class="container">
-    
     <div class="info">
       <h1>{name}</h1>
       <h2>{label}</h2>
@@ -79,7 +100,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
         {
           profiles.map(({ network, url, username }) => {
             const Icon = SOCIAL_ICONS[network]
-
+            if (!Icon) return null
             return (
               <a
                 href={url}
@@ -94,9 +115,6 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
         }
       </footer>
     </div>
-    <figure>
-      <img src={image} alt={name} />
-    </figure>
   </div>
 </Section>
 
@@ -125,13 +143,6 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
     font-weight: 500;
     font-size: 1.1rem;
     text-wrap: balance;
-  }
-
-  img {
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    width: 128px;
-    border-radius: 16px;
   }
 
   span {
