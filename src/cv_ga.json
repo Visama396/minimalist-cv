@@ -32,8 +32,6 @@
       "name": "Imaginanet",
       "position": "Desenvolvedor web",
       "url": "https://www.imaginanet.com/",
-      "startDate": "2019-10-01",
-      "endDate": "2021-02-01",
       "summary": "Desenvolvín novos proxectos web e interactivos nun equipo pequeno, incluíndo a migración de Flash a HTML5 e JavaScript. Falei directamente cos clientes e coordineime co equipo de probas usando Git, Jira e Trello, o que me fixo medrar como desenvolvedor.",
       "highlights": [
         "Desenvolvemento áxil",
@@ -46,8 +44,6 @@
       "name": "Stampwallet",
       "position": "Desenvolvedor web",
       "url": "https://www.puntje.nl/",
-      "startDate": "2019-04-01",
-      "endDate": "2019-06-06",
       "summary": "Creei a páxina de Puntje e mantiven código e servizos de clientes. Refactoricei código e apoiei a entrega de produtos mentres aprendía React, Django e WordPress.",
       "highlights": [
         "Wordpress",
@@ -60,8 +56,6 @@
       "name": "Biyectiva",
       "position": "Desenvolvedor web",
       "url": "https://www.biyectiva.com/es/success-story/connectvty",
-      "startDate": "2018-10-01",
-      "endDate": "2019-03-30",
       "summary": "Colaborei con Biyectiva na web de ConnecTVty. Traballei en frontend e backend con Laravel e Angular para un produto estable.",
       "highlights": [
         "Laravel",
@@ -72,11 +66,25 @@
   "volunteer": [],
   "education": [
     {
+      "institution": "CIFP A Carballeira",
+      "url": "https://cifpacarballeira.gal/",
+      "area": "Desenvolvemento de Aplicacións Multiplataforma - DAM",
+      "studyType": "Ciclo superior",
+      "score": "",
+      "courses": [
+        "Digitalización aplicada a los sectores productivos",
+        "Sistemas de gestión empresarial",
+        "Programación de servicios y procesos",
+        "Programación multimedia y dispositivos móviles",
+        "Desarrollo de interfaces",
+        "Acceso a datos"
+      ]
+    },
+    {
       "institution": "ESEI Ourense",
       "url": "https://esei.uvigo.es/",
       "area": "Enxeñaría informática",
       "studyType": "Grao",
-      "startDate": "2022-09-01",
       "score": "",
       "courses": [
         "Programación",
@@ -88,12 +96,10 @@
       ]
     },
     {
-      "institution": "The Core School",
-      "url": "https://www.thecoreschool.com/",
+      "institution": "SAE Institute Berlin",
+      "url": "https://www.sae.edu/deu/campuses/berlin/",
       "area": "Desenvolvemento de videoxogos",
       "studyType": "Diploma",
-      "startDate": "2021-09-01",
-      "endDate": "2022-06-01",
       "score": "8.1",
       "courses": [
         "Fundamentos",
@@ -111,10 +117,8 @@
     {
       "institution": "CIFP Carlos III",
       "url": "https://cifpcarlos3.es/es",
-      "area": "Desenvolvemento web",
+      "area": "Desenvolvemento de aplicacións web - DAW",
       "studyType": "Ciclo superior",
-      "startDate": "2017-09-01",
-      "endDate": "2019-06-01",
       "score": "8.2",
       "courses": [
         "Sistemas",
@@ -133,8 +137,6 @@
       "url": "https://cifphesperides.es/2020/",
       "area": "Sistemas e redes",
       "studyType": "Ciclo medio",
-      "startDate": "2015-09-01",
-      "endDate": "2017-06-01",
       "score": "7.8",
       "courses": [
         "Mantemento",

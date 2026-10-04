@@ -32,8 +32,6 @@
       "name": "Imaginanet",
       "position": "ウェブ開発者",
       "url": "https://www.imaginanet.com/",
-      "startDate": "2019-10-01",
-      "endDate": "2021-02-01",
       "summary": "小規模チームで新規ウェブ・インタラクティブプロジェクトを開発し、FlashコンテンツのHTML5・JavaScriptへの移行や改善に対応しました。進捗をクライアントと直接共有し、GitとJira・Trelloでテストチームと連携したことで、開発者として大きく成長できました。",
       "highlights": [
         "アジャイル開発",
@@ -46,8 +44,6 @@
       "name": "Stampwallet",
       "position": "ウェブ開発者",
       "url": "https://www.puntje.nl/",
-      "startDate": "2019-04-01",
-      "endDate": "2019-06-06",
       "summary": "新製品Puntjeのランディングページを作成し、既存・新規クライアントのコードやサービスを保守しました。コードのリファクタリングや製品提供を支援しながら、ReactやDjango、WordPressを学び続けました。",
       "highlights": [
         "Wordpress",
@@ -60,8 +56,6 @@
       "name": "Biyectiva",
       "position": "ウェブ開発者",
       "url": "https://www.biyectiva.com/es/success-story/connectvty",
-      "startDate": "2018-10-01",
-      "endDate": "2019-03-30",
       "summary": "BiyectivaでConnecTVtyアプリのクライアント向けサイト構築に貢献しました。LaravelとAngularでフロントエンドからバックエンドまで担当し、安定した製品を提供しました。",
       "highlights": [
         "Laravel",
@@ -72,11 +66,25 @@
   "volunteer": [],
   "education": [
     {
+      "institution": "CIFP A Carballeira",
+      "url": "https://cifpacarballeira.gal/",
+      "area": "マルチプラットフォームアプリケーション開発 - DAM",
+      "studyType": "ディプロマ",
+      "score": "",
+      "courses": [
+        "Digitalización aplicada a los sectores productivos",
+        "Sistemas de gestión empresarial",
+        "Programación de servicios y procesos",
+        "Programación multimedia y dispositivos móviles",
+        "Desarrollo de interfaces",
+        "Acceso a datos"
+      ]
+    },
+    {
       "institution": "ESEI Ourense",
       "url": "https://esei.uvigo.es/",
       "area": "コンピュータ工学",
       "studyType": "学位",
-      "startDate": "2022-09-01",
       "score": "",
       "courses": [
         "プログラミング基礎",
@@ -88,18 +96,16 @@
       ]
     },
     {
-      "institution": "The Core School",
-      "url": "https://www.thecoreschool.com/",
+      "institution": "SAE Institute Berlin",
+      "url": "https://www.sae.edu/deu/campuses/berlin/",
       "area": "ゲーム開発",
       "studyType": "ディプロマ",
-      "startDate": "2021-09-01",
-      "endDate": "2022-06-01",
       "score": "8.1",
       "courses": [
         "ゲームプログラミング基礎",
-        "Unity入門",
+        "Unity",
         "Unity開発",
-        "Unreal Engine入門",
+        "Unreal Engine",
         "C++",
         "アニメーション",
         "Unreal AI",
@@ -111,10 +117,8 @@
     {
       "institution": "CIFP Carlos III",
       "url": "https://cifpcarlos3.es/es",
-      "area": "ソフトウェア開発",
+      "area": "Webアプリケーション開発 - DAW",
       "studyType": "ディプロマ",
-      "startDate": "2017-09-01",
-      "endDate": "2019-06-01",
       "score": "8.2",
       "courses": [
         "システム",
@@ -133,8 +137,6 @@
       "url": "https://cifphesperides.es/2020/",
       "area": "コンピュータとネットワーク",
       "studyType": "ディプロマ",
-      "startDate": "2015-09-01",
-      "endDate": "2017-06-01",
       "score": "7.8",
       "courses": [
         "保守・設置",

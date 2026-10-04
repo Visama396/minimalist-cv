@@ -32,8 +32,6 @@
       "name": "Imaginanet",
       "position": "Desarrollador Web",
       "url": "https://www.imaginanet.com/",
-      "startDate": "2019-10-01",
-      "endDate": "2021-02-01",
       "summary": "Desarrollé nuevos proyectos web e interactivos en un equipo pequeño, incluyendo la migración de contenido Flash a HTML5 y JavaScript y la incorporación de mejoras pedidas por el cliente. Me comuniqué directamente con los clientes sobre el estado del desarrollo y me coordiné con el equipo de pruebas usando Git para el control de versiones junto con Jira y Trello, lo que me permitió crecer mucho como desarrollador.",
       "highlights": [
         "Desarrollo Ágil",
@@ -46,8 +44,6 @@
       "name": "Stampwallet",
       "position": "Desarrollador Web",
       "url": "https://www.puntje.nl/",
-      "startDate": "2019-04-01",
-      "endDate": "2019-06-06",
       "summary": "Creé la página de destino del nuevo producto Puntje y mantuve el código y los servicios de clientes anteriores y nuevos. Refactoricé bases de código existentes, apoyé la entrega de productos y seguí aprendiendo nuevas tecnologías por el camino, incluyendo React, Django y WordPress.",
       "highlights": [
         "Wordpress",
@@ -60,8 +56,6 @@
       "name": "Biyectiva",
       "position": "Desarrollador Web",
       "url": "https://www.biyectiva.com/es/success-story/connectvty",
-      "startDate": "2018-10-01",
-      "endDate": "2019-03-30",
       "summary": "Colaboré con la startup Biyectiva para crear la web de clientes de su aplicación ConnecTVty. Trabajé tanto en frontend como en backend con Laravel y Angular para entregar un producto estable y fácil de usar para clientes reales.",
       "highlights": [
         "Laravel",
@@ -72,11 +66,25 @@
   "volunteer": [],
   "education": [
     {
+      "institution": "CIFP A Carballeira",
+      "url": "https://cifpacarballeira.gal/",
+      "area": "Desarrollo de Aplicaciones Multiplataforma - DAM",
+      "studyType": "Grado Superior",
+      "score": "",
+      "courses": [
+        "Digitalización aplicada a los sectores productivos",
+        "Sistemas de gestión empresarial",
+        "Programación de servicios y procesos",
+        "Programación multimedia y dispositivos móviles",
+        "Desarrollo de interfaces",
+        "Acceso a datos"
+      ]
+    },
+    {
       "institution": "ESEI Ourense",
       "url": "https://esei.uvigo.es/",
       "area": "Ingeniería Informática",
       "studyType": "Carrera",
-      "startDate": "2022-09-01",
       "score": "",
       "courses": [
         "Programación",
@@ -88,18 +96,16 @@
       ]
     },
     {
-      "institution": "The Core School",
-      "url": "https://www.thecoreschool.com/",
+      "institution": "SAE Institute Berlin",
+      "url": "https://www.sae.edu/deu/campuses/berlin/",
       "area": "Desarrollo de Videojuegos",
       "studyType": "Diploma",
-      "startDate": "2021-09-01",
-      "endDate": "2022-06-01",
       "score": "8.1",
       "courses": [
         "Fundamentos de la Programación de Videojuegos",
-        "Introducción a Unity",
+        "Unity",
         "Prototipado y desarrollo en Unity",
-        "Introducción a Unreal Engine",
+        "Unreal Engine",
         "Programación en C++",
         "Implementación de animaciones",
         "Inteligencia Artificial de Unreal Engine",
@@ -113,8 +119,6 @@
       "url": "https://cifpcarlos3.es/es",
       "area": "Desarrollo de Aplicaciones Web - DAW",
       "studyType": "Grado Superior",
-      "startDate": "2017-09-01",
-      "endDate": "2019-06-01",
       "score": "8.2",
       "courses": [
         "Sistemas informáticos",
@@ -133,8 +137,6 @@
       "url": "https://cifphesperides.es/2020/",
       "area": "Sistemas Microinformáticos y Redes - SMR",
       "studyType": "Grado Medio",
-      "startDate": "2015-09-01",
-      "endDate": "2017-06-01",
       "score": "7.8",
       "courses": [
         "Mantenimiento e instalación de equipos",

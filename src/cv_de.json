@@ -32,8 +32,6 @@
       "name": "Imaginanet",
       "position": "Webentwickler",
       "url": "https://www.imaginanet.com/",
-      "startDate": "2019-10-01",
-      "endDate": "2021-02-01",
       "summary": "Entwicklung neuer Web- und interaktiver Projekte in einem kleinen Team, einschließlich der Migration von Flash nach HTML5 und JavaScript. Direkte Abstimmung mit Kunden und Koordination mit dem Testteam mit Git sowie Jira und Trello, wodurch ich mich stark weiterentwickeln konnte.",
       "highlights": [
         "Agile Entwicklung",
@@ -46,8 +44,6 @@
       "name": "Stampwallet",
       "position": "Webentwickler",
       "url": "https://www.puntje.nl/",
-      "startDate": "2019-04-01",
-      "endDate": "2019-06-06",
       "summary": "Erstellung der Landingpage für Puntje sowie Wartung von Code und Services für Kunden. Codebasen refaktoriert und dabei neue Technologien wie React, Django und WordPress gelernt.",
       "highlights": [
         "Wordpress",
@@ -60,8 +56,6 @@
       "name": "Biyectiva",
       "position": "Webentwickler",
       "url": "https://www.biyectiva.com/es/success-story/connectvty",
-      "startDate": "2018-10-01",
-      "endDate": "2019-03-30",
       "summary": "Mitarbeit bei Biyectiva an der Kunden-Website für ConnecTVty. Frontend- und Backend-Arbeit mit Laravel und Angular für ein stabiles Produkt.",
       "highlights": [
         "Laravel",
@@ -72,11 +66,25 @@
   "volunteer": [],
   "education": [
     {
+      "institution": "CIFP A Carballeira",
+      "url": "https://cifpacarballeira.gal/",
+      "area": "Entwicklung plattformübergreifender Anwendungen - DAM",
+      "studyType": "Diplom",
+      "score": "",
+      "courses": [
+        "Digitalización aplicada a los sectores productivos",
+        "Sistemas de gestión empresarial",
+        "Programación de servicios y procesos",
+        "Programación multimedia y dispositivos móviles",
+        "Desarrollo de interfaces",
+        "Acceso a datos"
+      ]
+    },
+    {
       "institution": "ESEI Ourense",
       "url": "https://esei.uvigo.es/",
       "area": "Informatik",
       "studyType": "Studium",
-      "startDate": "2022-09-01",
       "score": "",
       "courses": [
         "Programmiergrundlagen",
@@ -88,18 +96,16 @@
       ]
     },
     {
-      "institution": "The Core School",
-      "url": "https://www.thecoreschool.com/",
+      "institution": "SAE Institute Berlin",
+      "url": "https://www.sae.edu/deu/campuses/berlin/",
       "area": "Spieleentwicklung",
       "studyType": "Diplom",
-      "startDate": "2021-09-01",
-      "endDate": "2022-06-01",
       "score": "8.1",
       "courses": [
         "Grundlagen der Spieleprogrammierung",
-        "Einfuehrung in Unity",
+        "Unity",
         "Prototyping und Entwicklung in Unity",
-        "Einfuehrung in Unreal Engine",
+        "Unreal Engine",
         "C++ Programmierung",
         "Animationen",
         "KI in Unreal Engine",
@@ -111,10 +117,8 @@
     {
       "institution": "CIFP Carlos III",
       "url": "https://cifpcarlos3.es/es",
-      "area": "Softwareentwicklung",
+      "area": "Web-Anwendungsentwicklung - DAW",
       "studyType": "Diplom",
-      "startDate": "2017-09-01",
-      "endDate": "2019-06-01",
       "score": "8.2",
       "courses": [
         "Computersysteme",
@@ -134,8 +138,6 @@
       "url": "https://cifphesperides.es/2020/",
       "area": "Computer und Netzwerke",
       "studyType": "Diplom",
-      "startDate": "2015-09-01",
-      "endDate": "2017-06-01",
       "score": "7.8",
       "courses": [
         "Wartung und Installation",
